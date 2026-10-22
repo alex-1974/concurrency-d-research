@@ -1,0 +1,152 @@
+[
+  {
+    "branch": "origin",
+    "commit": "7af4409a2e09a303dfbc6c54033d28c92eb67581",
+    "snapshot": "snapshots/7af4409a2e09a303dfbc6c54033d28c92eb67581",
+    "files": 8
+  },
+  {
+    "branch": "develop",
+    "commit": "7af4409a2e09a303dfbc6c54033d28c92eb67581",
+    "snapshot": "snapshots/7af4409a2e09a303dfbc6c54033d28c92eb67581",
+    "files": 8
+  },
+  {
+    "branch": "docs/m0-release-contract",
+    "commit": "52529abd9f2ef44828f9544302b1d0dd4a20d159",
+    "snapshot": "snapshots/52529abd9f2ef44828f9544302b1d0dd4a20d159",
+    "files": 10
+  },
+  {
+    "branch": "feat/m0-internal-worker-batch",
+    "commit": "ec6315db2c2902161808e0d55c0d4ed338587d42",
+    "snapshot": "snapshots/ec6315db2c2902161808e0d55c0d4ed338587d42",
+    "files": 2
+  },
+  {
+    "branch": "feat/m0-owned-task-handle",
+    "commit": "a3c1af93d96088cc45c8c00c1848605257fe0b66",
+    "snapshot": "snapshots/a3c1af93d96088cc45c8c00c1848605257fe0b66",
+    "files": 5
+  },
+  {
+    "branch": "feat/m0-parking-condition",
+    "commit": "32ba911773567e6245c5b6afb1a0515503b6455b",
+    "snapshot": "snapshots/32ba911773567e6245c5b6afb1a0515503b6455b",
+    "files": 3
+  },
+  {
+    "branch": "feat/m0-public-executor",
+    "commit": "ebce22d28c8af318fbe197bbd2b2857c7e353f21",
+    "snapshot": "snapshots/ebce22d28c8af318fbe197bbd2b2857c7e353f21",
+    "files": 10
+  },
+  {
+    "branch": "feat/m0-task-retention-reclamation",
+    "commit": "c47bd9d34e2a844b3802bfa0a4941e41cd0e7599",
+    "snapshot": "snapshots/c47bd9d34e2a844b3802bfa0a4941e41cd0e7599",
+    "files": 7
+  },
+  {
+    "branch": "feat/m0-typed-record-prototype",
+    "commit": "23b4667a0c94dee5ab8702fc9c7cce5f6ff2f9b0",
+    "snapshot": "snapshots/23b4667a0c94dee5ab8702fc9c7cce5f6ff2f9b0",
+    "files": 4
+  },
+  {
+    "branch": "feature/containers-work-stealing-adoption",
+    "commit": "63e9977fce027fab62692ee8de7328d3e93cdc2e",
+    "snapshot": "snapshots/63e9977fce027fab62692ee8de7328d3e93cdc2e",
+    "files": 1
+  },
+  {
+    "branch": "fix/full-victim-coverage",
+    "commit": "31f97b8315980b4b52a97cb1706a507a1422eaa5",
+    "snapshot": "snapshots/31f97b8315980b4b52a97cb1706a507a1422eaa5",
+    "files": 8
+  },
+  {
+    "branch": "fix/m0-executor-shutdown-lifecycle",
+    "commit": "f346747f82c6b31dcd5e52aeb726b4c3b24addb7",
+    "snapshot": "snapshots/f346747f82c6b31dcd5e52aeb726b4c3b24addb7",
+    "files": 6
+  },
+  {
+    "branch": "fix/m0-native-lifecycle-boundary",
+    "commit": "0f4167cf7ccf0e98fcafd1c091e9de3e346b66da",
+    "snapshot": "snapshots/0f4167cf7ccf0e98fcafd1c091e9de3e346b66da",
+    "files": 9
+  },
+  {
+    "branch": "perf/m0-r04-p01-benchmark",
+    "commit": "7844d9062cf43400802aad0f4880300a1b9e65d9",
+    "snapshot": "snapshots/7844d9062cf43400802aad0f4880300a1b9e65d9",
+    "files": 3
+  },
+  {
+    "branch": "perf/m0-reject-without-gc-alloc",
+    "commit": "5715c7fa47e340d5a1b7857aab75d4e15fc0485a",
+    "snapshot": "snapshots/5715c7fa47e340d5a1b7857aab75d4e15fc0485a",
+    "files": 8
+  },
+  {
+    "branch": "perf/r05-owned-task-pipeline",
+    "commit": "aced318e84634d0c1d8457b94df4d60ba2742a2c",
+    "snapshot": "snapshots/aced318e84634d0c1d8457b94df4d60ba2742a2c",
+    "files": 131
+  },
+  {
+    "branch": "research-integration",
+    "commit": "e40c9e5641e48140ec1d00d1c4c6130fc1c7a21a",
+    "snapshot": "snapshots/e40c9e5641e48140ec1d00d1c4c6130fc1c7a21a",
+    "files": 83
+  },
+  {
+    "branch": "research/m1-task-lifetime-boundaries",
+    "commit": "97578c8c1e8354539929292a5e8e7ec2861cf508",
+    "snapshot": "snapshots/97578c8c1e8354539929292a5e8e7ec2861cf508",
+    "files": 395
+  },
+  {
+    "branch": "research/r0-1-containers-adoption",
+    "commit": "d106ae05a6b79391b39826413b89ac251164511b",
+    "snapshot": "snapshots/d106ae05a6b79391b39826413b89ac251164511b",
+    "files": 230
+  },
+  {
+    "branch": "research/r0-1-work-stealing-deque",
+    "commit": "b35a92f3412da6ca8a666cca9c144b5a335e5988",
+    "snapshot": "snapshots/b35a92f3412da6ca8a666cca9c144b5a335e5988",
+    "files": 222
+  },
+  {
+    "branch": "research/r0-2-containers-work-stealing-adoption",
+    "commit": "b35a92f3412da6ca8a666cca9c144b5a335e5988",
+    "snapshot": "snapshots/b35a92f3412da6ca8a666cca9c144b5a335e5988",
+    "files": 222
+  },
+  {
+    "branch": "research/r0-2-task-representation",
+    "commit": "2e9e957850e59f2365ab5e1d7a7a45c1e487f5ef",
+    "snapshot": "snapshots/2e9e957850e59f2365ab5e1d7a7a45c1e487f5ef",
+    "files": 36
+  },
+  {
+    "branch": "research/r0-3-worker-scheduling",
+    "commit": "cbe3922a156df44d76c6191dd3a973636da7f5f5",
+    "snapshot": "snapshots/cbe3922a156df44d76c6191dd3a973636da7f5f5",
+    "files": 83
+  },
+  {
+    "branch": "research/r0-4-parking-wake",
+    "commit": "37972e77394ed5d9e495f324573f6d8eb726ac2a",
+    "snapshot": "snapshots/37972e77394ed5d9e495f324573f6d8eb726ac2a",
+    "files": 84
+  },
+  {
+    "branch": "validation/m0-victim-coverage-xps",
+    "commit": "0d704c342770159d14838d72671997d82f5e124d",
+    "snapshot": "snapshots/0d704c342770159d14838d72671997d82f5e124d",
+    "files": 8
+  }
+]

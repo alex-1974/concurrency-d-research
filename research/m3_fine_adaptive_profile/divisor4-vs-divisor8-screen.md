@@ -1,0 +1,5 @@
+# Divisor-4 screening run on the XPS
+
+This four-pair exploratory screen compared the exact `v0.3.0` tree with a temporary source archive changing only the guided divisor from 8 to 4. It used one four-worker Executor, 1024 items, minimum grain 1, and eight waves per invocation. Callback shapes matched those used by `benchmarks/adaptive-ranges`, and every invocation was checked against a serial checksum. The raw screen data are in [`divisor4-vs-divisor8-screen.csv`](divisor4-vs-divisor8-screen.csv).
+
+The initial screen was noisy and too small to select a candidate. It was followed by the full four-session, 20-pair qualification across six workload shapes, two worker counts and two grains, documented in [`README.md`](README.md). That larger experiment found some median wins for divisor 4 on short and medium uniform work at four workers, but session variation and high tail ratios prevented a reliable overall conclusion. Divisor 8 remains the default. Divisor 16 is excluded because its earlier timing screen did not enforce checksums.

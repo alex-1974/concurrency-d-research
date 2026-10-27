@@ -1,0 +1,355 @@
+{
+  "status": "COMPLETE",
+  "protocol": "4 sessions; each binary 20 measured samples and 5 warmups per setting; 6 workloads x 2 workers x 2 grains; paired fixed/adaptive arms; alternating binary order",
+  "baseline": "/tmp/adaptive-ranges-divisor8/adaptive-ranges-divisor8",
+  "baseline_sha256": "48fff2983cb4537c9155f053f2d7257d52760fd3c90df75eb7f46a24a6655aa6",
+  "candidate": "/tmp/adaptive-ranges-divisor4/adaptive-ranges-divisor4",
+  "candidate_sha256": "8bd9368a3a65f0624525c2174593783497dc4a60b95409074b361a645e6abaad",
+  "compiler": "LDC - the LLVM D compiler (1.42.0):\n  based on DMD v2.112.1 and LLVM 19.1.7\n  built with LDC - the LLVM D compiler (1.42.0)\n  Default target: x86_64-pc-linux-gnu\n  Host CPU: skylake\n  https://dlang.org - https://wiki.dlang.org/LDC\n\n\n  Registered Targets:\n    aarch64     - AArch64 (little endian)\n    aarch64_32  - AArch64 (little endian ILP32)\n    aarch64_be  - AArch64 (big endian)\n    amdgcn      - AMD GCN GPUs\n    arm         - ARM\n    arm64       - ARM64 (little endian)\n    arm64_32    - ARM64 (little endian ILP32)\n    armeb       - ARM (big endian)\n    avr         - Atmel AVR Microcontroller\n    bpf         - BPF (host endian)\n    bpfeb       - BPF (big endian)\n    bpfel       - BPF (little endian)\n    hexagon     - Hexagon\n    lanai       - Lanai\n    loongarch32 - 32-bit LoongArch\n    loongarch64 - 64-bit LoongArch\n    m68k        - Motorola 68000 family\n    mips        - MIPS (32-bit big endian)\n    mips64      - MIPS (64-bit big endian)\n    mips64el    - MIPS (64-bit little endian)\n    mipsel      - MIPS (32-bit little endian)\n    msp430      - MSP430 [experimental]\n    nvptx       - NVIDIA PTX 32-bit\n    nvptx64     - NVIDIA PTX 64-bit\n    ppc32       - PowerPC 32\n    ppc32le     - PowerPC 32 LE\n    ppc64       - PowerPC 64\n    ppc64le     - PowerPC 64 LE\n    r600        - AMD GPUs HD2XXX-HD6XXX\n    riscv32     - 32-bit RISC-V\n    riscv64     - 64-bit RISC-V\n    sparc       - Sparc\n    sparcel     - Sparc LE\n    sparcv9     - Sparc V9\n    systemz     - SystemZ\n    thumb       - Thumb\n    thumbeb     - Thumb (big endian)\n    ve          - VE\n    wasm32      - WebAssembly 32-bit\n    wasm64      - WebAssembly 64-bit\n    x86         - 32-bit X86: Pentium-Pro and above\n    x86-64      - 64-bit X86: EM64T and AMD64\n    xcore       - XCore\n    xtensa      - Xtensa 32\n",
+  "kernel": {
+    "system": "Linux",
+    "node": "xps-15",
+    "release": "6.17.0-22-generic",
+    "version": "#22-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 13 12:04:44 UTC 2026",
+    "machine": "x86_64",
+    "processor": ""
+  },
+  "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           39 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  12\nOn-line CPU(s) list:                     0-11\nVendor ID:                               GenuineIntel\nModel name:                              Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz\nCPU family:                              6\nModel:                                   158\nThread(s) per core:                      2\nCore(s) per socket:                      6\nSocket(s):                               1\nStepping:                                10\nMicrocode version:                       0xfa\nCPU(s) scaling MHz:                      89%\nCPU max MHz:                             4500.0000\nCPU min MHz:                             800.0000\nBogoMIPS:                                5199.98\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities\nVirtualization:                          VT-x\nL1d cache:                               192 KiB (6 instances)\nL1i cache:                               192 KiB (6 instances)\nL2 cache:                                1.5 MiB (6 instances)\nL3 cache:                                12 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-11\nVulnerability Gather data sampling:      Vulnerable\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             KVM: Mitigation: Split huge pages\nVulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable\nVulnerability Mds:                       Mitigation; Clear CPU buffers; SMT vulnerable\nVulnerability Meltdown:                  Mitigation; PTI\nVulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT vulnerable\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; IBRS\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; IBRS; IBPB conditional; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Mitigation; Microcode\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+  "temperature_abort_mC": 90000,
+  "fan_min_rpm": 800,
+  "sessions": [
+    {
+      "session": 1,
+      "order": [
+        "divisor8",
+        "divisor4"
+      ],
+      "runs": [
+        {
+          "name": "divisor8",
+          "binary": "/tmp/adaptive-ranges-divisor8/adaptive-ranges-divisor8",
+          "pre": {
+            "utc": "2026-10-27T12:52:57Z",
+            "package_temp_mC": 69000,
+            "fan_rpm": [
+              3398,
+              3386
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.75 1.89 1.91 6/2639 1635368"
+          },
+          "post": {
+            "utc": "2026-10-27T12:52:59Z",
+            "package_temp_mC": 83000,
+            "fan_rpm": [
+              3401,
+              3395
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.75 1.89 1.91 2/2649 1638421"
+          },
+          "max_sampled_temp_mC": 83000,
+          "rows": 1200,
+          "returncode": 0
+        },
+        {
+          "name": "divisor4",
+          "binary": "/tmp/adaptive-ranges-divisor4/adaptive-ranges-divisor4",
+          "pre": {
+            "utc": "2026-10-27T12:52:59Z",
+            "package_temp_mC": 83000,
+            "fan_rpm": [
+              3398,
+              3383
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.75 1.89 1.91 2/2649 1638421"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:00Z",
+            "package_temp_mC": 79000,
+            "fan_rpm": [
+              3404,
+              3386
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.77 1.89 1.91 6/2649 1641445"
+          },
+          "max_sampled_temp_mC": 83000,
+          "rows": 1200,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "order": [
+        "divisor4",
+        "divisor8"
+      ],
+      "runs": [
+        {
+          "name": "divisor4",
+          "binary": "/tmp/adaptive-ranges-divisor4/adaptive-ranges-divisor4",
+          "pre": {
+            "utc": "2026-10-27T12:53:00Z",
+            "package_temp_mC": 79000,
+            "fan_rpm": [
+              3398,
+              3386
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.77 1.89 1.91 7/2649 1641445"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:02Z",
+            "package_temp_mC": 78000,
+            "fan_rpm": [
+              3401,
+              3395
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.77 1.89 1.91 3/2647 1644475"
+          },
+          "max_sampled_temp_mC": 79000,
+          "rows": 1200,
+          "returncode": 0
+        },
+        {
+          "name": "divisor8",
+          "binary": "/tmp/adaptive-ranges-divisor8/adaptive-ranges-divisor8",
+          "pre": {
+            "utc": "2026-10-27T12:53:02Z",
+            "package_temp_mC": 78000,
+            "fan_rpm": [
+              3398,
+              3395
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.77 1.89 1.91 8/2647 1644475"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:04Z",
+            "package_temp_mC": 84000,
+            "fan_rpm": [
+              3395,
+              3389
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.95 1.93 1.92 3/2678 1647548"
+          },
+          "max_sampled_temp_mC": 84000,
+          "rows": 1200,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "order": [
+        "divisor8",
+        "divisor4"
+      ],
+      "runs": [
+        {
+          "name": "divisor8",
+          "binary": "/tmp/adaptive-ranges-divisor8/adaptive-ranges-divisor8",
+          "pre": {
+            "utc": "2026-10-27T12:53:04Z",
+            "package_temp_mC": 84000,
+            "fan_rpm": [
+              3404,
+              3389
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.95 1.93 1.92 2/2678 1647548"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:06Z",
+            "package_temp_mC": 80000,
+            "fan_rpm": [
+              3759,
+              3777
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.95 1.93 1.92 3/2677 1650567"
+          },
+          "max_sampled_temp_mC": 84000,
+          "rows": 1200,
+          "returncode": 0
+        },
+        {
+          "name": "divisor4",
+          "binary": "/tmp/adaptive-ranges-divisor4/adaptive-ranges-divisor4",
+          "pre": {
+            "utc": "2026-10-27T12:53:06Z",
+            "package_temp_mC": 80000,
+            "fan_rpm": [
+              3762,
+              3788
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.95 1.93 1.92 1/2677 1650567"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:08Z",
+            "package_temp_mC": 88000,
+            "fan_rpm": [
+              3900,
+              3900
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.95 1.93 1.92 3/2677 1653581"
+          },
+          "max_sampled_temp_mC": 88000,
+          "rows": 1200,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "order": [
+        "divisor4",
+        "divisor8"
+      ],
+      "runs": [
+        {
+          "name": "divisor4",
+          "binary": "/tmp/adaptive-ranges-divisor4/adaptive-ranges-divisor4",
+          "pre": {
+            "utc": "2026-10-27T12:53:08Z",
+            "package_temp_mC": 88000,
+            "fan_rpm": [
+              3897,
+              3912
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.95 1.93 1.92 1/2677 1653581"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:10Z",
+            "package_temp_mC": 83000,
+            "fan_rpm": [
+              4096,
+              4147
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.96 1.93 1.92 1/2677 1656593"
+          },
+          "max_sampled_temp_mC": 88000,
+          "rows": 1200,
+          "returncode": 0
+        },
+        {
+          "name": "divisor8",
+          "binary": "/tmp/adaptive-ranges-divisor8/adaptive-ranges-divisor8",
+          "pre": {
+            "utc": "2026-10-27T12:53:10Z",
+            "package_temp_mC": 83000,
+            "fan_rpm": [
+              4100,
+              4143
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.96 1.93 1.92 2/2677 1656593"
+          },
+          "post": {
+            "utc": "2026-10-27T12:53:11Z",
+            "package_temp_mC": 77000,
+            "fan_rpm": [
+              4288,
+              4321
+            ],
+            "throttle": {
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count": 12820,
+              "/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count": 4207
+            },
+            "governor": "powersave",
+            "platform_profile": "cool",
+            "loadavg": "1.96 1.93 1.92 1/2677 1659609"
+          },
+          "max_sampled_temp_mC": 83000,
+          "rows": 1200,
+          "returncode": 0
+        }
+      ]
+    }
+  ],
+  "ended_utc": "2026-10-27T12:53:11Z"
+}

@@ -1,0 +1,7783 @@
+{
+  "input": "/tmp/concurrency-d-v0.3.0-arm64/m2-arm64-performance-b4580d61cddadeeca3b99420a1aae2857b9de62e/end-to-end.csv",
+  "summaries": [
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 597100,
+        "p95": 712000,
+        "p99": 804300
+      },
+      "median_ns_per_chunk": 18663,
+      "median_chunks_per_second": 53578.95
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 466400,
+        "p95": 499700,
+        "p99": 586700
+      },
+      "median_ns_per_chunk": 14578,
+      "median_chunks_per_second": 68595.9
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3067800,
+        "p95": 3384200,
+        "p99": 3714800
+      },
+      "median_ns_per_chunk": 11988,
+      "median_chunks_per_second": 83410.7
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 471800,
+        "p95": 564300,
+        "p99": 589800
+      },
+      "median_ns_per_chunk": 14751,
+      "median_chunks_per_second": 67789.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3072400,
+        "p95": 3271500,
+        "p99": 3506900
+      },
+      "median_ns_per_chunk": 12005,
+      "median_chunks_per_second": 83295.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3059500,
+        "p95": 3250900,
+        "p99": 3399600
+      },
+      "median_ns_per_chunk": 11960,
+      "median_chunks_per_second": 83605.55
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 431600,
+        "p95": 568500,
+        "p99": 737000
+      },
+      "median_ns_per_chunk": 13487,
+      "median_chunks_per_second": 74142.7
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2744500,
+        "p95": 2892600,
+        "p99": 3254900
+      },
+      "median_ns_per_chunk": 10722,
+      "median_chunks_per_second": 93257.1
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 483900,
+        "p95": 643100,
+        "p99": 799400
+      },
+      "median_ns_per_chunk": 15121,
+      "median_chunks_per_second": 66129.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 469100,
+        "p95": 533900,
+        "p99": 673900
+      },
+      "median_ns_per_chunk": 14659,
+      "median_chunks_per_second": 68215.7
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3101300,
+        "p95": 3796200,
+        "p99": 4079100
+      },
+      "median_ns_per_chunk": 12119,
+      "median_chunks_per_second": 82511.45
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 494300,
+        "p95": 635500,
+        "p99": 683900
+      },
+      "median_ns_per_chunk": 15466,
+      "median_chunks_per_second": 64653.1
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3106400,
+        "p95": 3567200,
+        "p99": 4142900
+      },
+      "median_ns_per_chunk": 12135,
+      "median_chunks_per_second": 82399.9
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3100500,
+        "p95": 3408600,
+        "p99": 3811100
+      },
+      "median_ns_per_chunk": 12112,
+      "median_chunks_per_second": 82559.35
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 431700,
+        "p95": 603600,
+        "p99": 742500
+      },
+      "median_ns_per_chunk": 13491,
+      "median_chunks_per_second": 74117.0
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2741900,
+        "p95": 3345700,
+        "p99": 4002100
+      },
+      "median_ns_per_chunk": 10710,
+      "median_chunks_per_second": 93360.79999999999
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 480000,
+        "p95": 788300,
+        "p99": 805400
+      },
+      "median_ns_per_chunk": 15010,
+      "median_chunks_per_second": 66618.15
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 468600,
+        "p95": 765600,
+        "p99": 783400
+      },
+      "median_ns_per_chunk": 14652,
+      "median_chunks_per_second": 68244.85
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3245800,
+        "p95": 3826900,
+        "p99": 5317200
+      },
+      "median_ns_per_chunk": 12682,
+      "median_chunks_per_second": 78843.25
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 479400,
+        "p95": 766400,
+        "p99": 810300
+      },
+      "median_ns_per_chunk": 15004,
+      "median_chunks_per_second": 66646.0
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3249300,
+        "p95": 3817600,
+        "p99": 4754400
+      },
+      "median_ns_per_chunk": 12702,
+      "median_chunks_per_second": 78720.85
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3024100,
+        "p95": 3850800,
+        "p99": 4470300
+      },
+      "median_ns_per_chunk": 11928,
+      "median_chunks_per_second": 83839.25
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 429000,
+        "p95": 731700,
+        "p99": 760000
+      },
+      "median_ns_per_chunk": 13409,
+      "median_chunks_per_second": 74574.70000000001
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2732200,
+        "p95": 4224100,
+        "p99": 5183600
+      },
+      "median_ns_per_chunk": 10673,
+      "median_chunks_per_second": 93690.54999999999
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 770400,
+        "p95": 795900,
+        "p99": 813000
+      },
+      "median_ns_per_chunk": 24076,
+      "median_chunks_per_second": 41534.2
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 763600,
+        "p95": 782400,
+        "p99": 791600
+      },
+      "median_ns_per_chunk": 23871,
+      "median_chunks_per_second": 41890.350000000006
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5247100,
+        "p95": 5297800,
+        "p99": 5339800
+      },
+      "median_ns_per_chunk": 20496,
+      "median_chunks_per_second": 48788.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 759900,
+        "p95": 794800,
+        "p99": 869300
+      },
+      "median_ns_per_chunk": 23757,
+      "median_chunks_per_second": 42091.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5247600,
+        "p95": 5292900,
+        "p99": 5304100
+      },
+      "median_ns_per_chunk": 20498,
+      "median_chunks_per_second": 48783.75
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5252500,
+        "p95": 5293100,
+        "p99": 5393100
+      },
+      "median_ns_per_chunk": 20517,
+      "median_chunks_per_second": 48738.7
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 729000,
+        "p95": 748100,
+        "p99": 768000
+      },
+      "median_ns_per_chunk": 22787,
+      "median_chunks_per_second": 43883.7
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5177600,
+        "p95": 5213700,
+        "p99": 5240800
+      },
+      "median_ns_per_chunk": 20228,
+      "median_chunks_per_second": 49435.65
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1386000,
+        "p95": 1416200,
+        "p99": 1429600
+      },
+      "median_ns_per_chunk": 43313,
+      "median_chunks_per_second": 23087.2
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1368100,
+        "p95": 1407300,
+        "p99": 1451100
+      },
+      "median_ns_per_chunk": 42776,
+      "median_chunks_per_second": 23377.3
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10038200,
+        "p95": 10103600,
+        "p99": 10302300
+      },
+      "median_ns_per_chunk": 39212,
+      "median_chunks_per_second": 25501.55
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1372800,
+        "p95": 1394300,
+        "p99": 1522000
+      },
+      "median_ns_per_chunk": 42904,
+      "median_chunks_per_second": 23307.45
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10035700,
+        "p95": 10071900,
+        "p99": 10454900
+      },
+      "median_ns_per_chunk": 39201,
+      "median_chunks_per_second": 25508.800000000003
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10041400,
+        "p95": 10115200,
+        "p99": 10324500
+      },
+      "median_ns_per_chunk": 39224,
+      "median_chunks_per_second": 25494.1
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1331600,
+        "p95": 1357600,
+        "p99": 1434600
+      },
+      "median_ns_per_chunk": 41613,
+      "median_chunks_per_second": 24030.300000000003
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10060600,
+        "p95": 10128500,
+        "p99": 10356300
+      },
+      "median_ns_per_chunk": 39300,
+      "median_chunks_per_second": 25444.9
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1384400,
+        "p95": 1409900,
+        "p99": 1423200
+      },
+      "median_ns_per_chunk": 43268,
+      "median_chunks_per_second": 23111.35
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1370000,
+        "p95": 1393700,
+        "p99": 1406000
+      },
+      "median_ns_per_chunk": 42812,
+      "median_chunks_per_second": 23357.7
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10035900,
+        "p95": 10066600,
+        "p99": 10134300
+      },
+      "median_ns_per_chunk": 39202,
+      "median_chunks_per_second": 25508.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1368500,
+        "p95": 1384000,
+        "p99": 1477500
+      },
+      "median_ns_per_chunk": 42765,
+      "median_chunks_per_second": 23383.3
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10034300,
+        "p95": 10078000,
+        "p99": 10165700
+      },
+      "median_ns_per_chunk": 39197,
+      "median_chunks_per_second": 25511.85
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10039300,
+        "p95": 10061200,
+        "p99": 10064200
+      },
+      "median_ns_per_chunk": 39216,
+      "median_chunks_per_second": 25499.8
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1330500,
+        "p95": 1345900,
+        "p99": 1354200
+      },
+      "median_ns_per_chunk": 41579,
+      "median_chunks_per_second": 24050.199999999997
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10058900,
+        "p95": 10113100,
+        "p99": 10162500
+      },
+      "median_ns_per_chunk": 39293,
+      "median_chunks_per_second": 25449.6
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1389000,
+        "p95": 1407800,
+        "p99": 1468700
+      },
+      "median_ns_per_chunk": 43423,
+      "median_chunks_per_second": 23029.050000000003
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1368500,
+        "p95": 1393200,
+        "p99": 1398300
+      },
+      "median_ns_per_chunk": 42779,
+      "median_chunks_per_second": 23375.6
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10036300,
+        "p95": 10081400,
+        "p99": 10144100
+      },
+      "median_ns_per_chunk": 39204,
+      "median_chunks_per_second": 25507.0
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1370600,
+        "p95": 1401400,
+        "p99": 1441400
+      },
+      "median_ns_per_chunk": 42840,
+      "median_chunks_per_second": 23342.300000000003
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10039700,
+        "p95": 10071900,
+        "p99": 10119200
+      },
+      "median_ns_per_chunk": 39218,
+      "median_chunks_per_second": 25498.3
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10037800,
+        "p95": 10064300,
+        "p99": 10095000
+      },
+      "median_ns_per_chunk": 39210,
+      "median_chunks_per_second": 25503.449999999997
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1330800,
+        "p95": 1350100,
+        "p99": 1369400
+      },
+      "median_ns_per_chunk": 41590,
+      "median_chunks_per_second": 24043.9
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10065400,
+        "p95": 10122300,
+        "p99": 10160500
+      },
+      "median_ns_per_chunk": 39317,
+      "median_chunks_per_second": 25433.45
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1387800,
+        "p95": 1410800,
+        "p99": 1451600
+      },
+      "median_ns_per_chunk": 43379,
+      "median_chunks_per_second": 23052.3
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1372700,
+        "p95": 1406900,
+        "p99": 1459900
+      },
+      "median_ns_per_chunk": 42899,
+      "median_chunks_per_second": 23310.0
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10038600,
+        "p95": 10064900,
+        "p99": 10090900
+      },
+      "median_ns_per_chunk": 39213,
+      "median_chunks_per_second": 25501.199999999997
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1373700,
+        "p95": 1404500,
+        "p99": 1468900
+      },
+      "median_ns_per_chunk": 42943,
+      "median_chunks_per_second": 23286.3
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10039800,
+        "p95": 10058100,
+        "p99": 10126700
+      },
+      "median_ns_per_chunk": 39217,
+      "median_chunks_per_second": 25498.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10040200,
+        "p95": 10063600,
+        "p99": 10076900
+      },
+      "median_ns_per_chunk": 39219,
+      "median_chunks_per_second": 25497.1
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1330800,
+        "p95": 1357100,
+        "p99": 1705500
+      },
+      "median_ns_per_chunk": 41588,
+      "median_chunks_per_second": 24044.800000000003
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10063300,
+        "p95": 10100500,
+        "p99": 10143300
+      },
+      "median_ns_per_chunk": 39309,
+      "median_chunks_per_second": 25438.85
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1383500,
+        "p95": 1414400,
+        "p99": 1576900
+      },
+      "median_ns_per_chunk": 43235,
+      "median_chunks_per_second": 23128.9
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1370300,
+        "p95": 1405800,
+        "p99": 1473900
+      },
+      "median_ns_per_chunk": 42830,
+      "median_chunks_per_second": 23347.449999999997
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10039000,
+        "p95": 10067200,
+        "p99": 10090300
+      },
+      "median_ns_per_chunk": 39214,
+      "median_chunks_per_second": 25500.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1372300,
+        "p95": 1405200,
+        "p99": 1423500
+      },
+      "median_ns_per_chunk": 42888,
+      "median_chunks_per_second": 23315.95
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10043300,
+        "p95": 10074700,
+        "p99": 10561000
+      },
+      "median_ns_per_chunk": 39232,
+      "median_chunks_per_second": 25489.1
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10041500,
+        "p95": 10076200,
+        "p99": 10099200
+      },
+      "median_ns_per_chunk": 39224,
+      "median_chunks_per_second": 25493.95
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1331600,
+        "p95": 1353200,
+        "p99": 1918000
+      },
+      "median_ns_per_chunk": 41615,
+      "median_chunks_per_second": 24029.4
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10060800,
+        "p95": 10090900,
+        "p99": 10135500
+      },
+      "median_ns_per_chunk": 39300,
+      "median_chunks_per_second": 25444.9
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1236700,
+        "p95": 1651200,
+        "p99": 1746200
+      },
+      "median_ns_per_chunk": 1209,
+      "median_chunks_per_second": 826841.5
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 352800,
+        "p95": 426500,
+        "p99": 542000
+      },
+      "median_ns_per_chunk": 344,
+      "median_chunks_per_second": 2900030.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2088000,
+        "p95": 2491300,
+        "p99": 2630500
+      },
+      "median_ns_per_chunk": 254,
+      "median_chunks_per_second": 3921305.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 358100,
+        "p95": 440900,
+        "p99": 541600
+      },
+      "median_ns_per_chunk": 349,
+      "median_chunks_per_second": 2856350.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1830300,
+        "p95": 2109000,
+        "p99": 2234000
+      },
+      "median_ns_per_chunk": 223,
+      "median_chunks_per_second": 4475280.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1960400,
+        "p95": 2119300,
+        "p99": 2406400
+      },
+      "median_ns_per_chunk": 239,
+      "median_chunks_per_second": 4177140.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 295000,
+        "p95": 414300,
+        "p99": 471700
+      },
+      "median_ns_per_chunk": 288,
+      "median_chunks_per_second": 3468840.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1718400,
+        "p95": 2165800,
+        "p99": 3436900
+      },
+      "median_ns_per_chunk": 209,
+      "median_chunks_per_second": 4766675.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 475700,
+        "p95": 580800,
+        "p99": 1473300
+      },
+      "median_ns_per_chunk": 464,
+      "median_chunks_per_second": 2151940.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 315700,
+        "p95": 375200,
+        "p99": 533200
+      },
+      "median_ns_per_chunk": 308,
+      "median_chunks_per_second": 3235410.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1791100,
+        "p95": 2156000,
+        "p99": 3985200
+      },
+      "median_ns_per_chunk": 218,
+      "median_chunks_per_second": 4571685.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 321500,
+        "p95": 389400,
+        "p99": 1962700
+      },
+      "median_ns_per_chunk": 313,
+      "median_chunks_per_second": 3183585.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1789900,
+        "p95": 2136800,
+        "p99": 2643800
+      },
+      "median_ns_per_chunk": 218,
+      "median_chunks_per_second": 4576025.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1799700,
+        "p95": 2007600,
+        "p99": 2230500
+      },
+      "median_ns_per_chunk": 219,
+      "median_chunks_per_second": 4550985.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 282700,
+        "p95": 434300,
+        "p99": 463900
+      },
+      "median_ns_per_chunk": 276,
+      "median_chunks_per_second": 3619655.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1575000,
+        "p95": 2090300,
+        "p99": 2194000
+      },
+      "median_ns_per_chunk": 192,
+      "median_chunks_per_second": 5201105.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 417400,
+        "p95": 486100,
+        "p99": 550100
+      },
+      "median_ns_per_chunk": 408,
+      "median_chunks_per_second": 2447140.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 310800,
+        "p95": 359700,
+        "p99": 419300
+      },
+      "median_ns_per_chunk": 303,
+      "median_chunks_per_second": 3293660.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1756900,
+        "p95": 1903500,
+        "p99": 2673700
+      },
+      "median_ns_per_chunk": 214,
+      "median_chunks_per_second": 4659710.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 308600,
+        "p95": 356900,
+        "p99": 398800
+      },
+      "median_ns_per_chunk": 301,
+      "median_chunks_per_second": 3310185.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1731400,
+        "p95": 1923300,
+        "p99": 2137100
+      },
+      "median_ns_per_chunk": 211,
+      "median_chunks_per_second": 4731155.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1707900,
+        "p95": 1835700,
+        "p99": 2170500
+      },
+      "median_ns_per_chunk": 208,
+      "median_chunks_per_second": 4795410.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 272800,
+        "p95": 345400,
+        "p99": 439200
+      },
+      "median_ns_per_chunk": 266,
+      "median_chunks_per_second": 3750235.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1539400,
+        "p95": 1970700,
+        "p99": 2061900
+      },
+      "median_ns_per_chunk": 187,
+      "median_chunks_per_second": 5321205.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 396300,
+        "p95": 510000,
+        "p99": 530400
+      },
+      "median_ns_per_chunk": 387,
+      "median_chunks_per_second": 2583250.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 303400,
+        "p95": 374400,
+        "p99": 445200
+      },
+      "median_ns_per_chunk": 296,
+      "median_chunks_per_second": 3373970.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1778800,
+        "p95": 2185800,
+        "p99": 2583700
+      },
+      "median_ns_per_chunk": 217,
+      "median_chunks_per_second": 4601605.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 313000,
+        "p95": 376700,
+        "p99": 440600
+      },
+      "median_ns_per_chunk": 306,
+      "median_chunks_per_second": 3259635.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1785200,
+        "p95": 2054700,
+        "p99": 2606200
+      },
+      "median_ns_per_chunk": 217,
+      "median_chunks_per_second": 4587170.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1756700,
+        "p95": 2171300,
+        "p99": 2516700
+      },
+      "median_ns_per_chunk": 214,
+      "median_chunks_per_second": 4663290.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 274000,
+        "p95": 420700,
+        "p99": 436900
+      },
+      "median_ns_per_chunk": 268,
+      "median_chunks_per_second": 3725705.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1507600,
+        "p95": 2002100,
+        "p99": 2059400
+      },
+      "median_ns_per_chunk": 184,
+      "median_chunks_per_second": 5430200.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 387600,
+        "p95": 492300,
+        "p99": 831800
+      },
+      "median_ns_per_chunk": 378,
+      "median_chunks_per_second": 2641220.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 320300,
+        "p95": 379400,
+        "p99": 443800
+      },
+      "median_ns_per_chunk": 312,
+      "median_chunks_per_second": 3196005.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1808000,
+        "p95": 2067100,
+        "p99": 2175400
+      },
+      "median_ns_per_chunk": 220,
+      "median_chunks_per_second": 4526095.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 323900,
+        "p95": 392800,
+        "p99": 430200
+      },
+      "median_ns_per_chunk": 316,
+      "median_chunks_per_second": 3156120.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1799700,
+        "p95": 2176000,
+        "p99": 2554600
+      },
+      "median_ns_per_chunk": 219,
+      "median_chunks_per_second": 4551745.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1785900,
+        "p95": 2054100,
+        "p99": 2401900
+      },
+      "median_ns_per_chunk": 218,
+      "median_chunks_per_second": 4571985.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 272300,
+        "p95": 418500,
+        "p99": 588800
+      },
+      "median_ns_per_chunk": 266,
+      "median_chunks_per_second": 3747530.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1495400,
+        "p95": 1966400,
+        "p99": 2029600
+      },
+      "median_ns_per_chunk": 182,
+      "median_chunks_per_second": 5477765.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 343900,
+        "p95": 483600,
+        "p99": 557100
+      },
+      "median_ns_per_chunk": 336,
+      "median_chunks_per_second": 2972435.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 314500,
+        "p95": 428400,
+        "p99": 515600
+      },
+      "median_ns_per_chunk": 307,
+      "median_chunks_per_second": 3255960.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1800500,
+        "p95": 2176100,
+        "p99": 2329200
+      },
+      "median_ns_per_chunk": 219,
+      "median_chunks_per_second": 4548840.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 328300,
+        "p95": 376700,
+        "p99": 410300
+      },
+      "median_ns_per_chunk": 320,
+      "median_chunks_per_second": 3119100.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1789300,
+        "p95": 2248800,
+        "p99": 2509500
+      },
+      "median_ns_per_chunk": 218,
+      "median_chunks_per_second": 4578200.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1787900,
+        "p95": 2077900,
+        "p99": 2341700
+      },
+      "median_ns_per_chunk": 218,
+      "median_chunks_per_second": 4577820.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 269300,
+        "p95": 348000,
+        "p99": 360700
+      },
+      "median_ns_per_chunk": 262,
+      "median_chunks_per_second": 3801745.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1499200,
+        "p95": 2013400,
+        "p99": 2121200
+      },
+      "median_ns_per_chunk": 183,
+      "median_chunks_per_second": 5463155.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 330600,
+        "p95": 490400,
+        "p99": 756800
+      },
+      "median_ns_per_chunk": 322,
+      "median_chunks_per_second": 3095060.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 318200,
+        "p95": 390100,
+        "p99": 1276900
+      },
+      "median_ns_per_chunk": 310,
+      "median_chunks_per_second": 3216585.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1780600,
+        "p95": 2159100,
+        "p99": 2492100
+      },
+      "median_ns_per_chunk": 217,
+      "median_chunks_per_second": 4597345.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 335700,
+        "p95": 443500,
+        "p99": 1049700
+      },
+      "median_ns_per_chunk": 327,
+      "median_chunks_per_second": 3049435.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1807200,
+        "p95": 2022600,
+        "p99": 2180700
+      },
+      "median_ns_per_chunk": 220,
+      "median_chunks_per_second": 4531725.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1792100,
+        "p95": 2154900,
+        "p99": 2472400
+      },
+      "median_ns_per_chunk": 218,
+      "median_chunks_per_second": 4569390.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 274600,
+        "p95": 454500,
+        "p99": 789800
+      },
+      "median_ns_per_chunk": 268,
+      "median_chunks_per_second": 3728380.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1499700,
+        "p95": 2148400,
+        "p99": 2197300
+      },
+      "median_ns_per_chunk": 183,
+      "median_chunks_per_second": 5461335.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 320600,
+        "p95": 477700,
+        "p99": 763000
+      },
+      "median_ns_per_chunk": 313,
+      "median_chunks_per_second": 3193015.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 314900,
+        "p95": 452700,
+        "p99": 540200
+      },
+      "median_ns_per_chunk": 307,
+      "median_chunks_per_second": 3249250.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1873800,
+        "p95": 2561300,
+        "p99": 2863400
+      },
+      "median_ns_per_chunk": 229,
+      "median_chunks_per_second": 4357030.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 330400,
+        "p95": 508500,
+        "p99": 783100
+      },
+      "median_ns_per_chunk": 322,
+      "median_chunks_per_second": 3099270.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1880000,
+        "p95": 2473000,
+        "p99": 2813200
+      },
+      "median_ns_per_chunk": 229,
+      "median_chunks_per_second": 4356290.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1767800,
+        "p95": 2588700,
+        "p99": 2836600
+      },
+      "median_ns_per_chunk": 216,
+      "median_chunks_per_second": 4604380.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 272100,
+        "p95": 428300,
+        "p99": 457800
+      },
+      "median_ns_per_chunk": 265,
+      "median_chunks_per_second": 3759870.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1490100,
+        "p95": 2639500,
+        "p99": 3359700
+      },
+      "median_ns_per_chunk": 181,
+      "median_chunks_per_second": 5493935.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 459300,
+        "p95": 480300,
+        "p99": 776000
+      },
+      "median_ns_per_chunk": 448,
+      "median_chunks_per_second": 2228995.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 450100,
+        "p95": 482500,
+        "p99": 507500
+      },
+      "median_ns_per_chunk": 439,
+      "median_chunks_per_second": 2273535.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2755500,
+        "p95": 2785200,
+        "p99": 2811800
+      },
+      "median_ns_per_chunk": 336,
+      "median_chunks_per_second": 2972855.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 454800,
+        "p95": 482600,
+        "p99": 498300
+      },
+      "median_ns_per_chunk": 444,
+      "median_chunks_per_second": 2248085.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2761600,
+        "p95": 2820400,
+        "p99": 2856600
+      },
+      "median_ns_per_chunk": 337,
+      "median_chunks_per_second": 2966290.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2759300,
+        "p95": 2794700,
+        "p99": 2830700
+      },
+      "median_ns_per_chunk": 336,
+      "median_chunks_per_second": 2968870.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 420500,
+        "p95": 457900,
+        "p99": 545400
+      },
+      "median_ns_per_chunk": 410,
+      "median_chunks_per_second": 2432600.0
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2685900,
+        "p95": 2722200,
+        "p99": 2739800
+      },
+      "median_ns_per_chunk": 327,
+      "median_chunks_per_second": 3049660.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 571400,
+        "p95": 716100,
+        "p99": 785300
+      },
+      "median_ns_per_chunk": 2233,
+      "median_chunks_per_second": 447787.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 391600,
+        "p95": 481500,
+        "p99": 504300
+      },
+      "median_ns_per_chunk": 1529,
+      "median_chunks_per_second": 653561.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2400900,
+        "p95": 2624600,
+        "p99": 2822100
+      },
+      "median_ns_per_chunk": 1173,
+      "median_chunks_per_second": 851738.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 397500,
+        "p95": 480900,
+        "p99": 618900
+      },
+      "median_ns_per_chunk": 1552,
+      "median_chunks_per_second": 644025.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2427300,
+        "p95": 2753500,
+        "p99": 2997000
+      },
+      "median_ns_per_chunk": 1186,
+      "median_chunks_per_second": 842678.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2412800,
+        "p95": 2668300,
+        "p99": 3445400
+      },
+      "median_ns_per_chunk": 1178,
+      "median_chunks_per_second": 848507.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 354400,
+        "p95": 441500,
+        "p99": 615700
+      },
+      "median_ns_per_chunk": 1385,
+      "median_chunks_per_second": 721636.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2158700,
+        "p95": 2633300,
+        "p99": 2950000
+      },
+      "median_ns_per_chunk": 1054,
+      "median_chunks_per_second": 948346.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 504000,
+        "p95": 535800,
+        "p99": 687700
+      },
+      "median_ns_per_chunk": 1968,
+      "median_chunks_per_second": 507836.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 385300,
+        "p95": 452700,
+        "p99": 475000
+      },
+      "median_ns_per_chunk": 1505,
+      "median_chunks_per_second": 664331.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2370700,
+        "p95": 2681600,
+        "p99": 2946700
+      },
+      "median_ns_per_chunk": 1158,
+      "median_chunks_per_second": 863170.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 388100,
+        "p95": 466700,
+        "p99": 617900
+      },
+      "median_ns_per_chunk": 1516,
+      "median_chunks_per_second": 659454.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2361200,
+        "p95": 2748800,
+        "p99": 3022500
+      },
+      "median_ns_per_chunk": 1152,
+      "median_chunks_per_second": 867209.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2376700,
+        "p95": 2616800,
+        "p99": 2893800
+      },
+      "median_ns_per_chunk": 1160,
+      "median_chunks_per_second": 861391.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 347700,
+        "p95": 448600,
+        "p99": 594100
+      },
+      "median_ns_per_chunk": 1359,
+      "median_chunks_per_second": 735738.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2151200,
+        "p95": 2384200,
+        "p99": 2988800
+      },
+      "median_ns_per_chunk": 1050,
+      "median_chunks_per_second": 951982.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 489700,
+        "p95": 638700,
+        "p99": 1116400
+      },
+      "median_ns_per_chunk": 1912,
+      "median_chunks_per_second": 522662.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 391500,
+        "p95": 509800,
+        "p99": 623300
+      },
+      "median_ns_per_chunk": 1529,
+      "median_chunks_per_second": 653728.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2450900,
+        "p95": 2999100,
+        "p99": 3462300
+      },
+      "median_ns_per_chunk": 1196,
+      "median_chunks_per_second": 835406.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 392700,
+        "p95": 478000,
+        "p99": 612300
+      },
+      "median_ns_per_chunk": 1535,
+      "median_chunks_per_second": 650904.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2446900,
+        "p95": 3092900,
+        "p99": 3497200
+      },
+      "median_ns_per_chunk": 1194,
+      "median_chunks_per_second": 836806.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2425000,
+        "p95": 3007100,
+        "p99": 3745600
+      },
+      "median_ns_per_chunk": 1184,
+      "median_chunks_per_second": 844327.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 360200,
+        "p95": 460700,
+        "p99": 587700
+      },
+      "median_ns_per_chunk": 1407,
+      "median_chunks_per_second": 710716.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2142000,
+        "p95": 2843800,
+        "p99": 3084800
+      },
+      "median_ns_per_chunk": 1045,
+      "median_chunks_per_second": 955781.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 422200,
+        "p95": 632500,
+        "p99": 943900
+      },
+      "median_ns_per_chunk": 1649,
+      "median_chunks_per_second": 606204.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 399400,
+        "p95": 499300,
+        "p99": 515500
+      },
+      "median_ns_per_chunk": 1561,
+      "median_chunks_per_second": 640560.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2428600,
+        "p95": 2740500,
+        "p99": 3035900
+      },
+      "median_ns_per_chunk": 1186,
+      "median_chunks_per_second": 842366.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 415000,
+        "p95": 485400,
+        "p99": 661300
+      },
+      "median_ns_per_chunk": 1623,
+      "median_chunks_per_second": 616052.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2459100,
+        "p95": 3032600,
+        "p99": 3146000
+      },
+      "median_ns_per_chunk": 1201,
+      "median_chunks_per_second": 832047.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2431500,
+        "p95": 2651400,
+        "p99": 3173700
+      },
+      "median_ns_per_chunk": 1187,
+      "median_chunks_per_second": 842018.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 356900,
+        "p95": 586100,
+        "p99": 595700
+      },
+      "median_ns_per_chunk": 1395,
+      "median_chunks_per_second": 716586.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2138600,
+        "p95": 2984400,
+        "p99": 3111500
+      },
+      "median_ns_per_chunk": 1044,
+      "median_chunks_per_second": 957613.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 408400,
+        "p95": 635900,
+        "p99": 663600
+      },
+      "median_ns_per_chunk": 1596,
+      "median_chunks_per_second": 626300.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 399100,
+        "p95": 492400,
+        "p99": 507400
+      },
+      "median_ns_per_chunk": 1559,
+      "median_chunks_per_second": 641042.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2435700,
+        "p95": 2960400,
+        "p99": 3195800
+      },
+      "median_ns_per_chunk": 1189,
+      "median_chunks_per_second": 840722.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 411900,
+        "p95": 503300,
+        "p99": 529800
+      },
+      "median_ns_per_chunk": 1608,
+      "median_chunks_per_second": 621434.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2469500,
+        "p95": 2859000,
+        "p99": 3206800
+      },
+      "median_ns_per_chunk": 1206,
+      "median_chunks_per_second": 828865.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2426000,
+        "p95": 2779800,
+        "p99": 3466300
+      },
+      "median_ns_per_chunk": 1184,
+      "median_chunks_per_second": 844101.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 353300,
+        "p95": 565300,
+        "p99": 605900
+      },
+      "median_ns_per_chunk": 1380,
+      "median_chunks_per_second": 724494.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2139700,
+        "p95": 2354300,
+        "p99": 3126100
+      },
+      "median_ns_per_chunk": 1044,
+      "median_chunks_per_second": 957076.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 415200,
+        "p95": 627400,
+        "p99": 648400
+      },
+      "median_ns_per_chunk": 1623,
+      "median_chunks_per_second": 615608.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 396300,
+        "p95": 448000,
+        "p99": 605800
+      },
+      "median_ns_per_chunk": 1548,
+      "median_chunks_per_second": 645893.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2422700,
+        "p95": 2823700,
+        "p99": 4119900
+      },
+      "median_ns_per_chunk": 1184,
+      "median_chunks_per_second": 844085.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 414400,
+        "p95": 510900,
+        "p99": 646200
+      },
+      "median_ns_per_chunk": 1618,
+      "median_chunks_per_second": 617612.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2441400,
+        "p95": 2823600,
+        "p99": 3038100
+      },
+      "median_ns_per_chunk": 1199,
+      "median_chunks_per_second": 833687.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2419100,
+        "p95": 2825300,
+        "p99": 3434300
+      },
+      "median_ns_per_chunk": 1181,
+      "median_chunks_per_second": 846421.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 352300,
+        "p95": 584000,
+        "p99": 612500
+      },
+      "median_ns_per_chunk": 1376,
+      "median_chunks_per_second": 726447.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2132800,
+        "p95": 2407900,
+        "p99": 3506200
+      },
+      "median_ns_per_chunk": 1041,
+      "median_chunks_per_second": 959970.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 616900,
+        "p95": 638300,
+        "p99": 734500
+      },
+      "median_ns_per_chunk": 2409,
+      "median_chunks_per_second": 414911.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 612600,
+        "p95": 637000,
+        "p99": 656400
+      },
+      "median_ns_per_chunk": 2392,
+      "median_chunks_per_second": 417823.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4033500,
+        "p95": 4084100,
+        "p99": 4110400
+      },
+      "median_ns_per_chunk": 1969,
+      "median_chunks_per_second": 507741.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 614900,
+        "p95": 653500,
+        "p99": 702700
+      },
+      "median_ns_per_chunk": 2402,
+      "median_chunks_per_second": 416192.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4030600,
+        "p95": 4074100,
+        "p99": 4465600
+      },
+      "median_ns_per_chunk": 1968,
+      "median_chunks_per_second": 508081.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4036500,
+        "p95": 4073000,
+        "p99": 4519600
+      },
+      "median_ns_per_chunk": 1970,
+      "median_chunks_per_second": 507364.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 578600,
+        "p95": 595400,
+        "p99": 600400
+      },
+      "median_ns_per_chunk": 2260,
+      "median_chunks_per_second": 442294.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3968700,
+        "p95": 4019200,
+        "p99": 4496800
+      },
+      "median_ns_per_chunk": 1937,
+      "median_chunks_per_second": 515927.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1083800,
+        "p95": 1100900,
+        "p99": 1104500
+      },
+      "median_ns_per_chunk": 4233,
+      "median_chunks_per_second": 236195.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1060700,
+        "p95": 1077200,
+        "p99": 1109700
+      },
+      "median_ns_per_chunk": 4146,
+      "median_chunks_per_second": 241179.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7596200,
+        "p95": 7621500,
+        "p99": 7741600
+      },
+      "median_ns_per_chunk": 3709,
+      "median_chunks_per_second": 269606.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1063600,
+        "p95": 1088300,
+        "p99": 1173800
+      },
+      "median_ns_per_chunk": 4155,
+      "median_chunks_per_second": 240624.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7597800,
+        "p95": 7628800,
+        "p99": 7670400
+      },
+      "median_ns_per_chunk": 3709,
+      "median_chunks_per_second": 269545.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7596000,
+        "p95": 7627400,
+        "p99": 7734600
+      },
+      "median_ns_per_chunk": 3708,
+      "median_chunks_per_second": 269616.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1025600,
+        "p95": 1039100,
+        "p99": 1059300
+      },
+      "median_ns_per_chunk": 4006,
+      "median_chunks_per_second": 249598.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7618400,
+        "p95": 7649600,
+        "p99": 7698600
+      },
+      "median_ns_per_chunk": 3719,
+      "median_chunks_per_second": 268814.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1080900,
+        "p95": 1101600,
+        "p99": 1253900
+      },
+      "median_ns_per_chunk": 4223,
+      "median_chunks_per_second": 236763.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1061000,
+        "p95": 1079400,
+        "p99": 1106800
+      },
+      "median_ns_per_chunk": 4144,
+      "median_chunks_per_second": 241282.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7595200,
+        "p95": 7624700,
+        "p99": 7639400
+      },
+      "median_ns_per_chunk": 3708,
+      "median_chunks_per_second": 269637.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1064800,
+        "p95": 1102100,
+        "p99": 1359800
+      },
+      "median_ns_per_chunk": 4159,
+      "median_chunks_per_second": 240375.5
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7596800,
+        "p95": 7621000,
+        "p99": 7689400
+      },
+      "median_ns_per_chunk": 3709,
+      "median_chunks_per_second": 269587.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7601700,
+        "p95": 7636700,
+        "p99": 7865600
+      },
+      "median_ns_per_chunk": 3711,
+      "median_chunks_per_second": 269413.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1026400,
+        "p95": 1040800,
+        "p99": 1043700
+      },
+      "median_ns_per_chunk": 4009,
+      "median_chunks_per_second": 249379.0
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 7617900,
+        "p95": 7645000,
+        "p99": 7931400
+      },
+      "median_ns_per_chunk": 3719,
+      "median_chunks_per_second": 268831.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 664900,
+        "p95": 844300,
+        "p99": 1310400
+      },
+      "median_ns_per_chunk": 2597,
+      "median_chunks_per_second": 384904.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 472700,
+        "p95": 558200,
+        "p99": 588800
+      },
+      "median_ns_per_chunk": 1848,
+      "median_chunks_per_second": 541055.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3060800,
+        "p95": 3345400,
+        "p99": 3505100
+      },
+      "median_ns_per_chunk": 1494,
+      "median_chunks_per_second": 668778.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 477900,
+        "p95": 564900,
+        "p99": 598000
+      },
+      "median_ns_per_chunk": 1867,
+      "median_chunks_per_second": 535341.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3001400,
+        "p95": 3252200,
+        "p99": 3774200
+      },
+      "median_ns_per_chunk": 1465,
+      "median_chunks_per_second": 682189.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3010300,
+        "p95": 3202700,
+        "p99": 3610400
+      },
+      "median_ns_per_chunk": 1469,
+      "median_chunks_per_second": 680308.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 431200,
+        "p95": 545000,
+        "p99": 792300
+      },
+      "median_ns_per_chunk": 1684,
+      "median_chunks_per_second": 593485.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2781000,
+        "p95": 2931700,
+        "p99": 3828700
+      },
+      "median_ns_per_chunk": 1357,
+      "median_chunks_per_second": 736412.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 607200,
+        "p95": 710600,
+        "p99": 836500
+      },
+      "median_ns_per_chunk": 2371,
+      "median_chunks_per_second": 421607.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 467100,
+        "p95": 565600,
+        "p99": 628100
+      },
+      "median_ns_per_chunk": 1827,
+      "median_chunks_per_second": 547185.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3053100,
+        "p95": 3755600,
+        "p99": 4564600
+      },
+      "median_ns_per_chunk": 1491,
+      "median_chunks_per_second": 670070.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 475400,
+        "p95": 578000,
+        "p99": 630100
+      },
+      "median_ns_per_chunk": 1857,
+      "median_chunks_per_second": 538437.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3013300,
+        "p95": 3364900,
+        "p99": 4241700
+      },
+      "median_ns_per_chunk": 1472,
+      "median_chunks_per_second": 679169.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3070300,
+        "p95": 3301000,
+        "p99": 3678600
+      },
+      "median_ns_per_chunk": 1499,
+      "median_chunks_per_second": 667025.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 431200,
+        "p95": 548800,
+        "p99": 754500
+      },
+      "median_ns_per_chunk": 1684,
+      "median_chunks_per_second": 593417.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2751600,
+        "p95": 3525000,
+        "p99": 3636400
+      },
+      "median_ns_per_chunk": 1343,
+      "median_chunks_per_second": 744213.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 600500,
+        "p95": 713100,
+        "p99": 816300
+      },
+      "median_ns_per_chunk": 2345,
+      "median_chunks_per_second": 426205.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 467300,
+        "p95": 577700,
+        "p99": 705600
+      },
+      "median_ns_per_chunk": 1826,
+      "median_chunks_per_second": 547476.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3063200,
+        "p95": 3375900,
+        "p99": 3802200
+      },
+      "median_ns_per_chunk": 1495,
+      "median_chunks_per_second": 668571.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 475500,
+        "p95": 562300,
+        "p99": 1385700
+      },
+      "median_ns_per_chunk": 1858,
+      "median_chunks_per_second": 538098.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3080300,
+        "p95": 3412500,
+        "p99": 3739400
+      },
+      "median_ns_per_chunk": 1504,
+      "median_chunks_per_second": 664751.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3042100,
+        "p95": 3346000,
+        "p99": 3796500
+      },
+      "median_ns_per_chunk": 1489,
+      "median_chunks_per_second": 671348.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 435200,
+        "p95": 562000,
+        "p99": 743100
+      },
+      "median_ns_per_chunk": 1700,
+      "median_chunks_per_second": 588032.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2745700,
+        "p95": 3136700,
+        "p99": 3844000
+      },
+      "median_ns_per_chunk": 1340,
+      "median_chunks_per_second": 745663.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 496500,
+        "p95": 725600,
+        "p99": 808800
+      },
+      "median_ns_per_chunk": 1941,
+      "median_chunks_per_second": 515039.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 468800,
+        "p95": 598600,
+        "p99": 644700
+      },
+      "median_ns_per_chunk": 1832,
+      "median_chunks_per_second": 545610.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3101500,
+        "p95": 3523900,
+        "p99": 4402000
+      },
+      "median_ns_per_chunk": 1514,
+      "median_chunks_per_second": 660326.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 489700,
+        "p95": 634500,
+        "p99": 642600
+      },
+      "median_ns_per_chunk": 1913,
+      "median_chunks_per_second": 522555.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3102600,
+        "p95": 3550900,
+        "p99": 4147300
+      },
+      "median_ns_per_chunk": 1515,
+      "median_chunks_per_second": 659826.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3098000,
+        "p95": 3493600,
+        "p99": 3957600
+      },
+      "median_ns_per_chunk": 1512,
+      "median_chunks_per_second": 661061.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 434200,
+        "p95": 598700,
+        "p99": 750500
+      },
+      "median_ns_per_chunk": 1696,
+      "median_chunks_per_second": 589386.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2733900,
+        "p95": 3470800,
+        "p99": 3922900
+      },
+      "median_ns_per_chunk": 1334,
+      "median_chunks_per_second": 749113.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 484900,
+        "p95": 776100,
+        "p99": 935900
+      },
+      "median_ns_per_chunk": 1896,
+      "median_chunks_per_second": 527184.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 473100,
+        "p95": 617000,
+        "p99": 769700
+      },
+      "median_ns_per_chunk": 1848,
+      "median_chunks_per_second": 541054.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3132600,
+        "p95": 3546500,
+        "p99": 4546700
+      },
+      "median_ns_per_chunk": 1529,
+      "median_chunks_per_second": 653707.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 489200,
+        "p95": 627000,
+        "p99": 959700
+      },
+      "median_ns_per_chunk": 1910,
+      "median_chunks_per_second": 523249.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3141100,
+        "p95": 3530200,
+        "p99": 4075100
+      },
+      "median_ns_per_chunk": 1534,
+      "median_chunks_per_second": 651317.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3106200,
+        "p95": 3406400,
+        "p99": 3528100
+      },
+      "median_ns_per_chunk": 1517,
+      "median_chunks_per_second": 658839.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 432600,
+        "p95": 593400,
+        "p99": 764200
+      },
+      "median_ns_per_chunk": 1696,
+      "median_chunks_per_second": 589194.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2739300,
+        "p95": 3199400,
+        "p99": 3973300
+      },
+      "median_ns_per_chunk": 1337,
+      "median_chunks_per_second": 747581.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 480600,
+        "p95": 797800,
+        "p99": 835100
+      },
+      "median_ns_per_chunk": 1877,
+      "median_chunks_per_second": 532501.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 472600,
+        "p95": 742300,
+        "p99": 760600
+      },
+      "median_ns_per_chunk": 1846,
+      "median_chunks_per_second": 541569.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3261000,
+        "p95": 4538000,
+        "p99": 5039500
+      },
+      "median_ns_per_chunk": 1592,
+      "median_chunks_per_second": 627922.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 483300,
+        "p95": 763100,
+        "p99": 795500
+      },
+      "median_ns_per_chunk": 1887,
+      "median_chunks_per_second": 529637.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3262400,
+        "p95": 4438500,
+        "p99": 5323700
+      },
+      "median_ns_per_chunk": 1592,
+      "median_chunks_per_second": 627749.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 3268600,
+        "p95": 3864000,
+        "p99": 4467700
+      },
+      "median_ns_per_chunk": 1595,
+      "median_chunks_per_second": 626558.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 428100,
+        "p95": 742200,
+        "p99": 767600
+      },
+      "median_ns_per_chunk": 1672,
+      "median_chunks_per_second": 597921.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2736100,
+        "p95": 3590500,
+        "p99": 5096900
+      },
+      "median_ns_per_chunk": 1335,
+      "median_chunks_per_second": 748497.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 775200,
+        "p95": 795100,
+        "p99": 884900
+      },
+      "median_ns_per_chunk": 3028,
+      "median_chunks_per_second": 330216.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 765200,
+        "p95": 806100,
+        "p99": 888900
+      },
+      "median_ns_per_chunk": 2989,
+      "median_chunks_per_second": 334509.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5245600,
+        "p95": 5290500,
+        "p99": 5324900
+      },
+      "median_ns_per_chunk": 2561,
+      "median_chunks_per_second": 390400.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 768000,
+        "p95": 794200,
+        "p99": 853300
+      },
+      "median_ns_per_chunk": 3001,
+      "median_chunks_per_second": 333181.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5249200,
+        "p95": 5282100,
+        "p99": 5320100
+      },
+      "median_ns_per_chunk": 2563,
+      "median_chunks_per_second": 390132.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5251500,
+        "p95": 5299800,
+        "p99": 5647400
+      },
+      "median_ns_per_chunk": 2564,
+      "median_chunks_per_second": 389965.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 730600,
+        "p95": 747300,
+        "p99": 800500
+      },
+      "median_ns_per_chunk": 2853,
+      "median_chunks_per_second": 350373.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 5183400,
+        "p95": 5217000,
+        "p99": 5258200
+      },
+      "median_ns_per_chunk": 2530,
+      "median_chunks_per_second": 395103.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1387800,
+        "p95": 1411700,
+        "p99": 1427800
+      },
+      "median_ns_per_chunk": 5421,
+      "median_chunks_per_second": 184458.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1370400,
+        "p95": 1401000,
+        "p99": 1448900
+      },
+      "median_ns_per_chunk": 5353,
+      "median_chunks_per_second": 186800.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10032200,
+        "p95": 10053500,
+        "p99": 10197300
+      },
+      "median_ns_per_chunk": 4898,
+      "median_chunks_per_second": 204135.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1369800,
+        "p95": 1400600,
+        "p99": 1452300
+      },
+      "median_ns_per_chunk": 5350,
+      "median_chunks_per_second": 186868.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10034500,
+        "p95": 10052800,
+        "p99": 10089000
+      },
+      "median_ns_per_chunk": 4899,
+      "median_chunks_per_second": 204090.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10037700,
+        "p95": 10061700,
+        "p99": 10105200
+      },
+      "median_ns_per_chunk": 4901,
+      "median_chunks_per_second": 204030.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1332600,
+        "p95": 1348200,
+        "p99": 1384800
+      },
+      "median_ns_per_chunk": 5205,
+      "median_chunks_per_second": 192098.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10059600,
+        "p95": 10096800,
+        "p99": 10138800
+      },
+      "median_ns_per_chunk": 4911,
+      "median_chunks_per_second": 203585.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1389800,
+        "p95": 1414400,
+        "p99": 1420500
+      },
+      "median_ns_per_chunk": 5428,
+      "median_chunks_per_second": 184186.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1370800,
+        "p95": 1419800,
+        "p99": 1447700
+      },
+      "median_ns_per_chunk": 5354,
+      "median_chunks_per_second": 186752.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10033000,
+        "p95": 10084100,
+        "p99": 10119200
+      },
+      "median_ns_per_chunk": 4898,
+      "median_chunks_per_second": 204123.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1373600,
+        "p95": 1390500,
+        "p99": 1423000
+      },
+      "median_ns_per_chunk": 5366,
+      "median_chunks_per_second": 186344.5
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10036900,
+        "p95": 10061200,
+        "p99": 10083400
+      },
+      "median_ns_per_chunk": 4900,
+      "median_chunks_per_second": 204044.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10037800,
+        "p95": 10059100,
+        "p99": 10211200
+      },
+      "median_ns_per_chunk": 4901,
+      "median_chunks_per_second": 204029.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobos",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1332900,
+        "p95": 1350200,
+        "p99": 1370200
+      },
+      "median_ns_per_chunk": 5206,
+      "median_chunks_per_second": 192055.0
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "phobosReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 10061200,
+        "p95": 10098500,
+        "p99": 10111900
+      },
+      "median_ns_per_chunk": 4912,
+      "median_chunks_per_second": 203546.0
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.3853,
+        "p95": 1.5363,
+        "p99": 1.8589
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0011,
+        "p95": 1.1088,
+        "p99": 1.1516
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1114,
+        "p95": 1.2421,
+        "p99": 1.3477
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0934,
+        "p95": 1.3075,
+        "p99": 1.4093
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0032,
+        "p95": 1.0759,
+        "p99": 1.135
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0065,
+        "p95": 1.0785,
+        "p99": 1.1309
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1163,
+        "p95": 1.176,
+        "p99": 1.2709
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1081,
+        "p95": 1.1861,
+        "p99": 1.2488
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1205,
+        "p95": 1.3971,
+        "p99": 1.9195
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0027,
+        "p95": 1.1729,
+        "p99": 1.3749
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.104,
+        "p95": 1.2896,
+        "p99": 1.5091
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1418,
+        "p95": 1.5019,
+        "p99": 1.6664
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9986,
+        "p95": 1.0881,
+        "p99": 1.2626
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0043,
+        "p95": 1.126,
+        "p99": 1.3179
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1009,
+        "p95": 1.2407,
+        "p99": 1.5327
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0969,
+        "p95": 1.2038,
+        "p99": 1.391
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1146,
+        "p95": 1.8715,
+        "p99": 1.9194
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.996,
+        "p95": 1.2813,
+        "p99": 1.4964
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1063,
+        "p95": 1.4073,
+        "p99": 1.4604
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1033,
+        "p95": 1.2531,
+        "p99": 1.8676
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9978,
+        "p95": 1.2108,
+        "p99": 1.4009
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0025,
+        "p95": 1.2049,
+        "p99": 1.5923
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1032,
+        "p95": 1.3237,
+        "p99": 1.7532
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0999,
+        "p95": 1.4031,
+        "p99": 1.6195
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0535,
+        "p95": 1.0849,
+        "p99": 1.1027
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9985,
+        "p95": 1.011,
+        "p99": 1.0206
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0127,
+        "p95": 1.0242,
+        "p99": 1.0325
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0408,
+        "p95": 1.0886,
+        "p99": 1.2044
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0004,
+        "p95": 1.0075,
+        "p99": 1.0118
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9993,
+        "p95": 1.0071,
+        "p99": 1.0135
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.014,
+        "p95": 1.0237,
+        "p99": 1.0286
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0147,
+        "p95": 1.0208,
+        "p99": 1.0402
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0387,
+        "p95": 1.0622,
+        "p99": 1.0808
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9998,
+        "p95": 1.0029,
+        "p99": 1.0108
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9977,
+        "p95": 1.0026,
+        "p99": 1.0076
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0307,
+        "p95": 1.0519,
+        "p99": 1.0795
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9998,
+        "p95": 1.0026,
+        "p99": 1.0148
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9994,
+        "p95": 1.0027,
+        "p99": 1.0146
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9975,
+        "p95": 1.0011,
+        "p99": 1.0095
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9977,
+        "p95": 1.0025,
+        "p99": 1.0238
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0405,
+        "p95": 1.0562,
+        "p99": 1.0724
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9996,
+        "p95": 1.0024,
+        "p99": 1.0089
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9976,
+        "p95": 1.0005,
+        "p99": 1.0078
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.029,
+        "p95": 1.0431,
+        "p99": 1.0945
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0,
+        "p95": 1.0029,
+        "p99": 1.0117
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9994,
+        "p95": 1.0052,
+        "p99": 1.0118
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9976,
+        "p95": 1.0023,
+        "p99": 1.0083
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9975,
+        "p95": 1.0001,
+        "p99": 1.0015
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0424,
+        "p95": 1.0593,
+        "p99": 1.1048
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0001,
+        "p95": 1.0049,
+        "p99": 1.0075
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9975,
+        "p95": 1.0017,
+        "p99": 1.0051
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0298,
+        "p95": 1.0519,
+        "p99": 1.0829
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9998,
+        "p95": 1.0032,
+        "p99": 1.0085
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0001,
+        "p95": 1.0031,
+        "p99": 1.0083
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9976,
+        "p95": 1.0009,
+        "p99": 1.0048
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9972,
+        "p95": 0.9998,
+        "p99": 1.0041
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0432,
+        "p95": 1.0569,
+        "p99": 1.0662
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9997,
+        "p95": 1.0034,
+        "p99": 1.0042
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9976,
+        "p95": 1.0006,
+        "p99": 1.0035
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0295,
+        "p95": 1.0563,
+        "p99": 1.0962
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9998,
+        "p95": 1.0026,
+        "p99": 1.0081
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9996,
+        "p95": 1.0028,
+        "p99": 1.0078
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9976,
+        "p95": 1.0007,
+        "p99": 1.0031
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9978,
+        "p95": 1.0001,
+        "p99": 1.0024
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0414,
+        "p95": 1.0647,
+        "p99": 1.0961
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9999,
+        "p95": 1.0023,
+        "p99": 1.0041
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9976,
+        "p95": 1.001,
+        "p99": 1.0049
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.032,
+        "p95": 1.0532,
+        "p99": 1.0627
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0005,
+        "p95": 1.0029,
+        "p99": 1.0505
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0001,
+        "p95": 1.0031,
+        "p99": 1.0503
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9981,
+        "p95": 1.0016,
+        "p99": 1.0507
+      }
+    },
+    {
+      "workload": "coarse",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9978,
+        "p95": 1.0033,
+        "p99": 1.0047
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 4.0552,
+        "p95": 5.6072,
+        "p99": 5.8224
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0654,
+        "p95": 1.2391,
+        "p99": 1.2998
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1946,
+        "p95": 1.3991,
+        "p99": 1.5225
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1923,
+        "p95": 1.4021,
+        "p99": 1.7937
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.8867,
+        "p95": 0.9702,
+        "p99": 1.0868
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9302,
+        "p95": 1.0293,
+        "p99": 1.1723
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0652,
+        "p95": 1.2057,
+        "p99": 1.3031
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1372,
+        "p95": 1.2242,
+        "p99": 1.2769
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.6642,
+        "p95": 1.959,
+        "p99": 4.84
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0044,
+        "p95": 1.1787,
+        "p99": 2.1323
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1311,
+        "p95": 1.255,
+        "p99": 2.5303
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1297,
+        "p95": 1.3695,
+        "p99": 5.6141
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9885,
+        "p95": 1.1382,
+        "p99": 1.3933
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9951,
+        "p95": 1.1699,
+        "p99": 1.4685
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1264,
+        "p95": 1.3316,
+        "p99": 1.4002
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1243,
+        "p95": 1.2357,
+        "p99": 1.4462
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.517,
+        "p95": 1.6509,
+        "p99": 1.7234
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0089,
+        "p95": 1.1217,
+        "p99": 1.5772
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1313,
+        "p95": 1.2371,
+        "p99": 1.7553
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1394,
+        "p95": 1.2968,
+        "p99": 1.4959
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9986,
+        "p95": 1.102,
+        "p99": 1.2043
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0141,
+        "p95": 1.0733,
+        "p99": 1.2196
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1201,
+        "p95": 1.1995,
+        "p99": 1.3809
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1102,
+        "p95": 1.168,
+        "p99": 1.2982
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.4629,
+        "p95": 1.6226,
+        "p99": 1.9586
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0061,
+        "p95": 1.0932,
+        "p99": 1.3264
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1513,
+        "p95": 1.2847,
+        "p99": 1.5607
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1067,
+        "p95": 1.3136,
+        "p99": 1.4129
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9956,
+        "p95": 1.1009,
+        "p99": 1.4738
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9942,
+        "p95": 1.1143,
+        "p99": 1.5125
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1597,
+        "p95": 1.2843,
+        "p99": 1.7374
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1476,
+        "p95": 1.2445,
+        "p99": 1.4531
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.3871,
+        "p95": 1.5908,
+        "p99": 2.4075
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9989,
+        "p95": 1.0609,
+        "p99": 1.2244
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1801,
+        "p95": 1.3227,
+        "p99": 1.4431
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1681,
+        "p95": 1.371,
+        "p99": 1.5752
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.999,
+        "p95": 1.1323,
+        "p99": 1.4453
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0027,
+        "p95": 1.1102,
+        "p99": 1.4077
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1858,
+        "p95": 1.3762,
+        "p99": 1.5731
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1828,
+        "p95": 1.3241,
+        "p99": 1.3527
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.2746,
+        "p95": 1.599,
+        "p99": 1.8486
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0092,
+        "p95": 1.148,
+        "p99": 1.2227
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1895,
+        "p95": 1.375,
+        "p99": 1.4757
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1988,
+        "p95": 1.3949,
+        "p99": 1.546
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.999,
+        "p95": 1.1202,
+        "p99": 1.3863
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0007,
+        "p95": 1.123,
+        "p99": 1.4224
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1897,
+        "p95": 1.3007,
+        "p99": 1.6712
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1906,
+        "p95": 1.2694,
+        "p99": 1.3455
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.2051,
+        "p95": 1.5385,
+        "p99": 2.8537
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.996,
+        "p95": 1.1069,
+        "p99": 1.1913
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.169,
+        "p95": 1.346,
+        "p99": 1.4382
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.204,
+        "p95": 1.3952,
+        "p99": 2.2869
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0089,
+        "p95": 1.1236,
+        "p99": 1.2189
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9894,
+        "p95": 1.1479,
+        "p99": 1.214
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1755,
+        "p95": 1.322,
+        "p99": 1.4584
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1713,
+        "p95": 1.3208,
+        "p99": 1.3546
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1737,
+        "p95": 1.5524,
+        "p99": 1.8369
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0109,
+        "p95": 1.3243,
+        "p99": 1.6424
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.2169,
+        "p95": 1.5924,
+        "p99": 1.9134
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1929,
+        "p95": 1.8195,
+        "p99": 2.9231
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0129,
+        "p95": 1.2079,
+        "p99": 1.4358
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0155,
+        "p95": 1.3002,
+        "p99": 1.6152
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.2498,
+        "p95": 1.4512,
+        "p99": 1.915
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1769,
+        "p95": 1.4056,
+        "p99": 1.7789
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0881,
+        "p95": 1.1411,
+        "p99": 1.8328
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9968,
+        "p95": 1.0111,
+        "p99": 1.0205
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0261,
+        "p95": 1.0403,
+        "p99": 1.0503
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0713,
+        "p95": 1.141,
+        "p99": 1.1717
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0013,
+        "p95": 1.0219,
+        "p99": 1.039
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0005,
+        "p95": 1.0195,
+        "p99": 1.0368
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0289,
+        "p95": 1.0493,
+        "p99": 1.0671
+      }
+    },
+    {
+      "workload": "fine",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0287,
+        "p95": 1.0456,
+        "p99": 1.0535
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.5892,
+        "p95": 2.035,
+        "p99": 2.2092
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0075,
+        "p95": 1.0885,
+        "p99": 1.1573
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1085,
+        "p95": 1.2007,
+        "p99": 1.3127
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1089,
+        "p95": 1.3262,
+        "p99": 1.806
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0071,
+        "p95": 1.1354,
+        "p99": 1.2377
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0065,
+        "p95": 1.1233,
+        "p99": 1.2542
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1178,
+        "p95": 1.2645,
+        "p99": 1.3755
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1069,
+        "p95": 1.2373,
+        "p99": 1.6023
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.435,
+        "p95": 1.5358,
+        "p99": 1.8437
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0009,
+        "p95": 1.1262,
+        "p99": 1.2166
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1008,
+        "p95": 1.2504,
+        "p99": 1.3389
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1095,
+        "p95": 1.3467,
+        "p99": 1.8152
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.997,
+        "p95": 1.1233,
+        "p99": 1.3186
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0015,
+        "p95": 1.131,
+        "p99": 1.2673
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0926,
+        "p95": 1.2746,
+        "p99": 1.4194
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0943,
+        "p95": 1.2122,
+        "p99": 1.3066
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.3579,
+        "p95": 1.5607,
+        "p99": 1.909
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0068,
+        "p95": 1.0997,
+        "p99": 1.3718
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.127,
+        "p95": 1.2243,
+        "p99": 1.5964
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0844,
+        "p95": 1.3215,
+        "p99": 1.4012
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9995,
+        "p95": 1.0772,
+        "p99": 1.1134
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0055,
+        "p95": 1.085,
+        "p99": 1.173
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1275,
+        "p95": 1.2286,
+        "p99": 1.2965
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1089,
+        "p95": 1.197,
+        "p99": 1.2492
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1912,
+        "p95": 1.7459,
+        "p99": 2.1004
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9977,
+        "p95": 1.1143,
+        "p99": 1.1921
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1081,
+        "p95": 1.2809,
+        "p99": 1.3963
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1213,
+        "p95": 1.3669,
+        "p99": 1.6669
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0218,
+        "p95": 1.1669,
+        "p99": 1.301
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0135,
+        "p95": 1.1759,
+        "p99": 1.2967
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1281,
+        "p95": 1.3955,
+        "p99": 1.4539
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.108,
+        "p95": 1.205,
+        "p99": 1.3752
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1624,
+        "p95": 1.504,
+        "p99": 1.8663
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9974,
+        "p95": 1.105,
+        "p99": 1.265
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1255,
+        "p95": 1.269,
+        "p99": 1.506
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.136,
+        "p95": 1.2705,
+        "p99": 1.5397
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0147,
+        "p95": 1.1654,
+        "p99": 1.3039
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0057,
+        "p95": 1.1714,
+        "p99": 1.31
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1389,
+        "p95": 1.3376,
+        "p99": 1.5111
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1297,
+        "p95": 1.2932,
+        "p99": 1.3308
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1869,
+        "p95": 1.802,
+        "p99": 1.8621
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9979,
+        "p95": 1.1118,
+        "p99": 1.7031
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.135,
+        "p95": 1.301,
+        "p99": 1.9468
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1632,
+        "p95": 1.3093,
+        "p99": 1.7767
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0052,
+        "p95": 1.1798,
+        "p99": 1.1951
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0009,
+        "p95": 1.1746,
+        "p99": 1.2787
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1464,
+        "p95": 1.269,
+        "p99": 1.3407
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1336,
+        "p95": 1.3168,
+        "p99": 1.6161
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0695,
+        "p95": 1.108,
+        "p99": 1.246
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9991,
+        "p95": 1.0126,
+        "p99": 1.0229
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0166,
+        "p95": 1.0274,
+        "p99": 1.0353
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0625,
+        "p95": 1.1306,
+        "p99": 1.2339
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9993,
+        "p95": 1.0106,
+        "p99": 1.1137
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9991,
+        "p95": 1.0102,
+        "p99": 1.1058
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0154,
+        "p95": 1.0253,
+        "p99": 1.1209
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0161,
+        "p95": 1.0264,
+        "p99": 1.1342
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.056,
+        "p95": 1.0752,
+        "p99": 1.0857
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9997,
+        "p95": 1.0028,
+        "p99": 1.0049
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9972,
+        "p95": 0.9998,
+        "p99": 1.0179
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0402,
+        "p95": 1.0681,
+        "p99": 1.1371
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0005,
+        "p95": 1.0045,
+        "p99": 1.0088
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9999,
+        "p95": 1.0046,
+        "p99": 1.0088
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9973,
+        "p95": 1.0011,
+        "p99": 1.0048
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9968,
+        "p95": 1.0,
+        "p99": 1.0169
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0512,
+        "p95": 1.0755,
+        "p99": 1.2222
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9993,
+        "p95": 1.0026,
+        "p99": 1.0042
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9969,
+        "p95": 1.0006,
+        "p99": 1.0036
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0371,
+        "p95": 1.073,
+        "p99": 1.326
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0003,
+        "p95": 1.0045,
+        "p99": 1.0103
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9993,
+        "p95": 1.004,
+        "p99": 1.0128
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9974,
+        "p95": 1.0009,
+        "p99": 1.0075
+      }
+    },
+    {
+      "workload": "irregular",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9977,
+        "p95": 1.0038,
+        "p99": 1.0289
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.5174,
+        "p95": 1.6381,
+        "p99": 3.0847
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0088,
+        "p95": 1.1052,
+        "p99": 1.1661
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0985,
+        "p95": 1.2074,
+        "p99": 1.2611
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0951,
+        "p95": 1.1918,
+        "p99": 1.3302
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9884,
+        "p95": 1.071,
+        "p99": 1.2082
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9916,
+        "p95": 1.083,
+        "p99": 1.2675
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0727,
+        "p95": 1.1696,
+        "p99": 1.3626
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0797,
+        "p95": 1.1448,
+        "p99": 1.2868
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.4031,
+        "p95": 1.5116,
+        "p99": 1.7024
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0004,
+        "p95": 1.182,
+        "p99": 1.4252
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1034,
+        "p95": 1.2652,
+        "p99": 1.6573
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0944,
+        "p95": 1.2688,
+        "p99": 1.477
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9859,
+        "p95": 1.0744,
+        "p99": 1.1594
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9911,
+        "p95": 1.1224,
+        "p99": 1.3244
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.086,
+        "p95": 1.2081,
+        "p99": 1.5401
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0918,
+        "p95": 1.1927,
+        "p99": 1.3267
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.3777,
+        "p95": 1.6463,
+        "p99": 1.7746
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0004,
+        "p95": 1.1034,
+        "p99": 1.1812
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1096,
+        "p95": 1.2126,
+        "p99": 1.263
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0905,
+        "p95": 1.2105,
+        "p99": 3.1273
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0005,
+        "p95": 1.1044,
+        "p99": 1.2169
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0025,
+        "p95": 1.1343,
+        "p99": 1.2167
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.107,
+        "p95": 1.2502,
+        "p99": 1.3804
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 8,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.096,
+        "p95": 1.2191,
+        "p99": 1.3951
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1406,
+        "p95": 1.5557,
+        "p99": 1.9103
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9988,
+        "p95": 1.0977,
+        "p99": 1.4594
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0971,
+        "p95": 1.2475,
+        "p99": 1.6032
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1216,
+        "p95": 1.48,
+        "p99": 1.5588
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9962,
+        "p95": 1.108,
+        "p99": 1.3372
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0005,
+        "p95": 1.1518,
+        "p99": 1.3666
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1094,
+        "p95": 1.2579,
+        "p99": 1.5281
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0986,
+        "p95": 1.2525,
+        "p99": 1.394
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1118,
+        "p95": 1.566,
+        "p99": 1.9441
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0017,
+        "p95": 1.1291,
+        "p99": 1.3818
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1283,
+        "p95": 1.2804,
+        "p99": 1.5182
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1279,
+        "p95": 1.4778,
+        "p99": 2.0363
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0079,
+        "p95": 1.1038,
+        "p99": 1.3126
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0055,
+        "p95": 1.1706,
+        "p99": 1.3535
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1215,
+        "p95": 1.2703,
+        "p99": 1.4234
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 32,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.113,
+        "p95": 1.2233,
+        "p99": 1.2545
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1049,
+        "p95": 1.3319,
+        "p99": 1.9071
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9997,
+        "p95": 1.361,
+        "p99": 1.6897
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1746,
+        "p95": 1.5058,
+        "p99": 1.8418
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0992,
+        "p95": 1.5103,
+        "p99": 1.8806
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0011,
+        "p95": 1.2212,
+        "p99": 1.4347
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0011,
+        "p95": 1.3527,
+        "p99": 1.6308
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.1792,
+        "p95": 1.4244,
+        "p99": 1.9512
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.169,
+        "p95": 1.3291,
+        "p99": 1.6223
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0598,
+        "p95": 1.0893,
+        "p99": 1.212
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9982,
+        "p95": 1.005,
+        "p99": 1.0099
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0119,
+        "p95": 1.0198,
+        "p99": 1.0254
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0464,
+        "p95": 1.0932,
+        "p99": 1.1868
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0006,
+        "p95": 1.0071,
+        "p99": 1.0102
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9988,
+        "p95": 1.0068,
+        "p99": 1.0117
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.012,
+        "p95": 1.023,
+        "p99": 1.0252
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 128,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0135,
+        "p95": 1.0218,
+        "p99": 1.094
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.041,
+        "p95": 1.056,
+        "p99": 1.0639
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9992,
+        "p95": 1.0026,
+        "p99": 1.0148
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9971,
+        "p95": 0.9998,
+        "p99": 1.014
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0267,
+        "p95": 1.0495,
+        "p99": 1.0986
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0003,
+        "p95": 1.0025,
+        "p99": 1.005
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9997,
+        "p95": 1.0016,
+        "p99": 1.0034
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9974,
+        "p95": 0.9994,
+        "p99": 1.0016
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9978,
+        "p95": 1.0003,
+        "p99": 1.0054
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "concurrency",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0422,
+        "p95": 1.0585,
+        "p99": 1.069
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9994,
+        "p95": 1.0037,
+        "p99": 1.0067
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "dynamicForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.997,
+        "p95": 1.0007,
+        "p99": 1.0047
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelFor",
+      "reference": "phobos",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0282,
+        "p95": 1.043,
+        "p99": 1.0684
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "dynamicForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0004,
+        "p95": 1.0036,
+        "p99": 1.0039
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9998,
+        "p95": 1.0027,
+        "p99": 1.0043
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9974,
+        "p95": 1.001,
+        "p99": 1.0023
+      }
+    },
+    {
+      "workload": "medium",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "reference": "phobosReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9978,
+        "p95": 1.0005,
+        "p99": 1.0114
+      }
+    }
+  ]
+}

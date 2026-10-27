@@ -95,3 +95,27 @@ also available as the [workflow artifact run](https://github.com/alex-1974/concu
 The ARM64 PMU still refuses call-graph sampling; `perf` software counters are
 available but cannot identify claim/dispatch/callback stacks. Consequently,
 issue #49 remains open and no production scheduler change is selected.
+
+## Adaptive minimum-grain screen
+
+PR #53 expanded the native ARM64 matrix to grains 1, 4, 16 and 64 and
+alternated grain order across sessions. An equivalent four-session XPS screen
+used the same exact-tag library source, LDC 1.42, four workers, six workload
+shapes, 20 measured samples and five warmups. Every fixed/adaptive pair had a
+matching checksum. The [raw XPS capture](results/grain_screen/xps/raw.csv),
+[ARM64 divisor-8 sessions](results/grain_screen/arm64/) and the
+[reproducible ratio analyzer](analyze_grain_screen.py) are retained with
+metadata and p50/p95/p99 summaries.
+
+Ratios below one mean adaptive execution at the candidate minimum grain was
+faster than adaptive grain 1 for the same session/sample. The short-uniform,
+four-worker p50 ratios were 0.861/0.990 for grain 4, 0.844/0.879 for grain 16,
+and 0.747/0.822 for grain 64 (XPS/ARM64). Grain 64 clears the 15% median gate
+on both platforms; grain 16 misses it on ARM64. Grain 64 also has repeatable
+upper-tail regressions: heavy-suffix p95 ratios were 1.375 on XPS and 1.120 on
+ARM64, while long-uniform p95 ratios were 1.122 and 1.230. Its heavy-suffix
+median regressed about 4% on both platforms. These results fail the control
+guardrails, so grain 64 is not a general default recommendation. For known,
+uniform short callbacks, grain 64 is a useful setting to test against the
+consumer's own complete workload; do not assume it helps irregular or
+long-running work. Grain 1 remains the baseline default.

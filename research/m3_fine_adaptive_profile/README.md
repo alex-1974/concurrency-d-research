@@ -55,3 +55,43 @@ Divisor 4's short-uniform, four-worker, grain-1 median ratio was 0.917 pooled, w
 This is a native ARM64 end-to-end timing capture, not a hardware-counter call-graph profile. The hosted runner exposes its CPU model and architecture but does not provide controlled thermals or an identical environment across runs. PR #51 adds checked short/heavy adaptive/fixed workloads and attempts `perf record`; the runner reports that the PMU does not support sampling/overflow interrupts, including after setting `perf_event_paranoid=0` on the ephemeral VM. A software-counter fallback successfully records one process run per mode: task-clock, context switches, migrations, and page faults. Checksums matched in all four runs. These single-run counters are exploratory only and cannot be substituted for sampled profiles or paired statistical evidence. The capture artifact is [`fine-adaptive-arm64`](https://github.com/alex-1974/concurrency-d/actions/runs/40539907150).
 
 Issue #49's required cross-architecture breakdown of claim/dispatch/callback/join costs remains outstanding. The next useful step is to add explicit benchmark phase instrumentation (with the same pinned baseline and paired protocol) for components that sampling cannot distinguish, then obtain ARM64 call-stack samples on a host that exposes PMU sampling. Keep v0.4.0 TBD until that evidence and the remaining correctness/performance gates pass.
+
+## Cross-architecture phase diagnostic
+
+PR #52 added a checksum-validated diagnostic against the exact `v0.3.0`
+commit `b4580d61cddadeeca3b99420a1aae2857b9de62e`. Both XPS and native
+Neoverse-N2 ARM64 captures completed four sessions with 20 measured samples
+and five warmups. Each dataset contains 1,800 rows. The diagnostic checks
+fixed/adaptive range coverage exactly once before timing, then compares serial,
+fixed grain-1 and adaptive grain-1 work for no-op, 16-step and 1024-step
+callbacks. It also measures `TaskScope` submission-body and post-body intervals
+for 4, 16 and 64 tasks. The post-body interval includes join/drain and cleanup;
+it does not isolate a pure join primitive.
+
+The primary diagnostic ratio is paired adaptive/fixed elapsed time; values
+below one mean the existing adaptive path is faster than fixed grain 1. The
+pooled p50/p95/p99 ratios were:
+
+| Platform | No-op callback | Short callback | Heavy callback |
+|---|---:|---:|---:|
+| XPS, LDC 1.42 | 0.765 / 0.860 / 0.934 | 0.774 / 1.053 / 1.664 | 0.883 / 1.098 / 2.438 |
+| Neoverse-N2, LDC 1.41 | 0.631 / 0.657 / 0.755 | 0.653 / 0.688 / 0.705 | 0.888 / 0.940 / 0.956 |
+
+The current adaptive policy therefore has a repeatable median advantage over
+fixed grain 1 for these fine no-op/short workloads on both platforms; heavy
+work is near 11% faster at the median. This compares existing scheduling
+policies and does not measure an optimization against the release baseline.
+XPS tail ratios vary sharply between captures (the final short/heavy p99 values
+are 1.664 and 2.438), despite stable directions in session medians. Treat these
+upper-tail ratios as host-noise-sensitive and do not use them to justify a
+scheduler change. The TaskScope samples indicate post-body medians around
+10–24 microseconds for no-op batches of 4–64 tasks on XPS and 13–24 microseconds
+on ARM64, but task execution overlaps submission, and these values do not
+decompose `parallelFor`'s internal join.
+
+Raw CSV, summary percentiles and host metadata are in
+[`results/phase_diagnostic/`](results/phase_diagnostic/). The ARM64 capture is
+also available as the [workflow artifact run](https://github.com/alex-1974/concurrency-d/actions/runs/40544424436).
+The ARM64 PMU still refuses call-graph sampling; `perf` software counters are
+available but cannot identify claim/dispatch/callback stacks. Consequently,
+issue #49 remains open and no production scheduler change is selected.

@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "baseline_tag": "v0.3.0",
+  "baseline_commit": "b4580d61cddadeeca3b99420a1aae2857b9de62e",
+  "source_commit": "71add453aad5be98238864469c54672203bfc8bd",
+  "binary_sha256": "7d19f6a3c7dba43b9217922dabcc5d07acdcdc60f925db96a8299b0d37f61f6e",
+  "compiler": "/opt/hostedtoolcache/ldc2/1.41.0/arm64/ldc2-1.41.0-linux-aarch64/bin/ldc2",
+  "machine": {
+    "system": "Linux",
+    "node": "runnervm4yw5a",
+    "release": "6.17.0-1022-azure",
+    "version": "#22-Ubuntu SMP Mon Jul 27 17:12:01 UTC 2026",
+    "machine": "aarch64",
+    "processor": "aarch64"
+  },
+  "cpu_model": "Neoverse-N2",
+  "protocol": {
+    "sessions": 4,
+    "measured_samples": 20,
+    "warmups": 5,
+    "workers": 4,
+    "items": 1024,
+    "waves": 8,
+    "grain": 1,
+    "costs_lcg_steps": {
+      "noop": 0,
+      "short": 16,
+      "heavy": 1024
+    }
+  },
+  "started_utc": "2026-10-27T16:49:00Z",
+  "ended_utc": "2026-10-27T16:49:10Z"
+}

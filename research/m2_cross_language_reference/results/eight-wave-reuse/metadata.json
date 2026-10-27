@@ -1,0 +1,18 @@
+{
+  "protocol": "four independent processes per framework; framework order rotates by session; eight reused waves per measured sample",
+  "workers": 4,
+  "samples_per_arm_per_session": 7,
+  "warmups_per_arm_per_session": 2,
+  "base_iterations": 512,
+  "waves": 8,
+  "host": "Dell XPS 15 / Intel Core i7-9750H (6 cores, 12 threads)",
+  "os": "Ubuntu / Linux 6.17.0-22-generic x86_64",
+  "power_profile": "cool",
+  "D": "LDC 1.42.0 / DMD frontend 2.112.1 / LLVM 19.1.7, release",
+  "C++": "GCC 15.3.0, C++20, -O3 -DNDEBUG",
+  "Taskflow": "v4.1.0 commit 45366fe5bc4f2f8ec9aa590b40c504e296886865",
+  "oneTBB": "2023.1.0 commit 3046c8b0c29df995980003ea24f4d78c80ec0c8d",
+  "Rust": "rustc 1.97.0, Cargo release profile, Rayon 1.12.0, locked dependencies",
+  "caveat": "oneTBB process-global scheduler startup is warmed by executable warmups; its first global runtime initialization is excluded from measured samples.",
+  "validation": "all checksum-checked processes exited successfully"
+}

@@ -1,0 +1,10 @@
+{
+  "benchmarks/cross-language/CMakeLists.txt": "fc8ec7fcc334b18e74bf5ecedcb0dd4073c34d3462bd31cf78598fb4b132d425",
+  "benchmarks/cross-language/README.md": "0bb0497733d42eef202a1589e4efb566edcec85a3191e4e2ed693ea80aed17e1",
+  "benchmarks/cross-language/onetbb.cpp": "2dc00df25c258cac0acc55c76ec05214c9a4ff4520f44f843c575a8a57ec50cf",
+  "benchmarks/cross-language/rayon/Cargo.lock": "16686ce56954eafc29dd790881b77efe1524f52b8f4d3ef7c6e9a4ed07904306",
+  "benchmarks/cross-language/rayon/Cargo.toml": "921b15cf95783ae820930c2463b97d89de79a2688c87314df0b96aa1eb22be47",
+  "benchmarks/cross-language/rayon/src/main.rs": "efccabf4496a37be251defdabca0632d1f3248a680c2d762d679f28bc8e80090",
+  "benchmarks/cross-language/taskflow.cpp": "95d25f75f6359ae4416638ff3d6fe8bf1c1bad382db405e619e2f4dab40d158b",
+  "benchmarks/end-to-end/main.d": "0d6ab0ce40f86ad03d01526dce6e5264673adb20e34811093b57d7c4cf0f875c"
+}

@@ -1,0 +1,2959 @@
+{
+  "input": "/tmp/concurrency-adaptive-ranges-ldc142-four-sessions.csv",
+  "summaries": [
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1320300,
+        "p95": 1362200,
+        "p99": 1428500
+      },
+      "median_ns_per_chunk": 161,
+      "median_chunks_per_second": 6204415.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1325800,
+        "p95": 1347600,
+        "p99": 1367700
+      },
+      "median_ns_per_chunk": 161,
+      "median_chunks_per_second": 6178675.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1321500,
+        "p95": 1367000,
+        "p99": 1396200
+      },
+      "median_ns_per_chunk": 161,
+      "median_chunks_per_second": 6197610.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1324700,
+        "p95": 1380100,
+        "p99": 1398000
+      },
+      "median_ns_per_chunk": 161,
+      "median_chunks_per_second": 6183575.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1332900,
+        "p95": 1378600,
+        "p99": 1440100
+      },
+      "median_ns_per_chunk": 162,
+      "median_chunks_per_second": 6144845.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1337000,
+        "p95": 1379400,
+        "p99": 1562300
+      },
+      "median_ns_per_chunk": 163,
+      "median_chunks_per_second": 6126235.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1335300,
+        "p95": 1380400,
+        "p99": 1403700
+      },
+      "median_ns_per_chunk": 163,
+      "median_chunks_per_second": 6134950.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1340300,
+        "p95": 1422000,
+        "p99": 1516100
+      },
+      "median_ns_per_chunk": 163,
+      "median_chunks_per_second": 6111150.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1330900,
+        "p95": 1378500,
+        "p99": 1423900
+      },
+      "median_ns_per_chunk": 162,
+      "median_chunks_per_second": 6154770.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1337900,
+        "p95": 1382400,
+        "p99": 1389100
+      },
+      "median_ns_per_chunk": 163,
+      "median_chunks_per_second": 6122345.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1330000,
+        "p95": 1376600,
+        "p99": 1464800
+      },
+      "median_ns_per_chunk": 162,
+      "median_chunks_per_second": 6156855.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1334800,
+        "p95": 1412800,
+        "p99": 1528000
+      },
+      "median_ns_per_chunk": 162,
+      "median_chunks_per_second": 6130825.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 854200,
+        "p95": 944500,
+        "p99": 993100
+      },
+      "median_ns_per_chunk": 104,
+      "median_chunks_per_second": 9578500.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1003400,
+        "p95": 1187800,
+        "p99": 1516000
+      },
+      "median_ns_per_chunk": 122,
+      "median_chunks_per_second": 8156120.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 868400,
+        "p95": 958900,
+        "p99": 1125300
+      },
+      "median_ns_per_chunk": 106,
+      "median_chunks_per_second": 9424765.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 886000,
+        "p95": 981300,
+        "p99": 1218500
+      },
+      "median_ns_per_chunk": 108,
+      "median_chunks_per_second": 9235640.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 836800,
+        "p95": 941300,
+        "p99": 950700
+      },
+      "median_ns_per_chunk": 102,
+      "median_chunks_per_second": 9768705.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 825600,
+        "p95": 932100,
+        "p99": 984000
+      },
+      "median_ns_per_chunk": 100,
+      "median_chunks_per_second": 9920680.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 859700,
+        "p95": 935700,
+        "p99": 1004200
+      },
+      "median_ns_per_chunk": 104,
+      "median_chunks_per_second": 9520055.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 878000,
+        "p95": 1014000,
+        "p99": 1482100
+      },
+      "median_ns_per_chunk": 107,
+      "median_chunks_per_second": 9319165.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 973600,
+        "p95": 1062300,
+        "p99": 1351500
+      },
+      "median_ns_per_chunk": 118,
+      "median_chunks_per_second": 8413270.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 963100,
+        "p95": 1064900,
+        "p99": 1080900
+      },
+      "median_ns_per_chunk": 117,
+      "median_chunks_per_second": 8500575.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 984100,
+        "p95": 1074000,
+        "p99": 1187500
+      },
+      "median_ns_per_chunk": 120,
+      "median_chunks_per_second": 8322670.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 977700,
+        "p95": 1241200,
+        "p99": 1473900
+      },
+      "median_ns_per_chunk": 119,
+      "median_chunks_per_second": 8333495.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 579100,
+        "p95": 637700,
+        "p99": 704000
+      },
+      "median_ns_per_chunk": 70,
+      "median_chunks_per_second": 14137550.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 662700,
+        "p95": 723300,
+        "p99": 816800
+      },
+      "median_ns_per_chunk": 80,
+      "median_chunks_per_second": 12355050.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 573400,
+        "p95": 615500,
+        "p99": 668700
+      },
+      "median_ns_per_chunk": 69,
+      "median_chunks_per_second": 14285450.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 578900,
+        "p95": 694200,
+        "p99": 957000
+      },
+      "median_ns_per_chunk": 70,
+      "median_chunks_per_second": 14148550.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 561700,
+        "p95": 647800,
+        "p99": 1071900
+      },
+      "median_ns_per_chunk": 68,
+      "median_chunks_per_second": 14583000.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 552200,
+        "p95": 603000,
+        "p99": 834100
+      },
+      "median_ns_per_chunk": 67,
+      "median_chunks_per_second": 14825800.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 573900,
+        "p95": 714400,
+        "p99": 1147000
+      },
+      "median_ns_per_chunk": 70,
+      "median_chunks_per_second": 14269300.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 549600,
+        "p95": 579700,
+        "p99": 664600
+      },
+      "median_ns_per_chunk": 67,
+      "median_chunks_per_second": 14889150.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 556300,
+        "p95": 644800,
+        "p99": 670600
+      },
+      "median_ns_per_chunk": 67,
+      "median_chunks_per_second": 14715300.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 553100,
+        "p95": 650800,
+        "p99": 680200
+      },
+      "median_ns_per_chunk": 67,
+      "median_chunks_per_second": 14807050.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1032800,
+        "p95": 1158900,
+        "p99": 1249800
+      },
+      "median_ns_per_chunk": 126,
+      "median_chunks_per_second": 7929535.0
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 1047300,
+        "p95": 1167600,
+        "p99": 1213800
+      },
+      "median_ns_per_chunk": 127,
+      "median_chunks_per_second": 7819405.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8274300,
+        "p95": 8549400,
+        "p99": 9031200
+      },
+      "median_ns_per_chunk": 1011,
+      "median_chunks_per_second": 988985.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8287800,
+        "p95": 8526500,
+        "p99": 8918900
+      },
+      "median_ns_per_chunk": 1011,
+      "median_chunks_per_second": 988411.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8283900,
+        "p95": 8683600,
+        "p99": 9062300
+      },
+      "median_ns_per_chunk": 1011,
+      "median_chunks_per_second": 988494.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8242700,
+        "p95": 8618000,
+        "p99": 10464000
+      },
+      "median_ns_per_chunk": 1008,
+      "median_chunks_per_second": 991766.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8275600,
+        "p95": 8798000,
+        "p99": 9334100
+      },
+      "median_ns_per_chunk": 1010,
+      "median_chunks_per_second": 989898.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8288500,
+        "p95": 8782600,
+        "p99": 9092100
+      },
+      "median_ns_per_chunk": 1012,
+      "median_chunks_per_second": 987660.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8293300,
+        "p95": 8824000,
+        "p99": 8949600
+      },
+      "median_ns_per_chunk": 1012,
+      "median_chunks_per_second": 987731.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8288500,
+        "p95": 8822400,
+        "p99": 9090600
+      },
+      "median_ns_per_chunk": 1011,
+      "median_chunks_per_second": 988172.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8293700,
+        "p95": 8553100,
+        "p99": 8941900
+      },
+      "median_ns_per_chunk": 1012,
+      "median_chunks_per_second": 987654.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8297600,
+        "p95": 8561600,
+        "p99": 8663700
+      },
+      "median_ns_per_chunk": 1012,
+      "median_chunks_per_second": 986904.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8330300,
+        "p95": 8750100,
+        "p99": 8957300
+      },
+      "median_ns_per_chunk": 1016,
+      "median_chunks_per_second": 982955.5
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 8311500,
+        "p95": 8683300,
+        "p99": 8863400
+      },
+      "median_ns_per_chunk": 1014,
+      "median_chunks_per_second": 985616.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4563400,
+        "p95": 4670600,
+        "p99": 4681600
+      },
+      "median_ns_per_chunk": 557,
+      "median_chunks_per_second": 1794815.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4760900,
+        "p95": 4855200,
+        "p99": 4925200
+      },
+      "median_ns_per_chunk": 581,
+      "median_chunks_per_second": 1719905.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4581600,
+        "p95": 4681300,
+        "p99": 4724300
+      },
+      "median_ns_per_chunk": 559,
+      "median_chunks_per_second": 1787885.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4607500,
+        "p95": 4727500,
+        "p99": 4781800
+      },
+      "median_ns_per_chunk": 562,
+      "median_chunks_per_second": 1777775.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4607500,
+        "p95": 4675000,
+        "p99": 4693400
+      },
+      "median_ns_per_chunk": 562,
+      "median_chunks_per_second": 1777375.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4647700,
+        "p95": 4730000,
+        "p99": 5212300
+      },
+      "median_ns_per_chunk": 567,
+      "median_chunks_per_second": 1762555.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4771900,
+        "p95": 4863500,
+        "p99": 5258000
+      },
+      "median_ns_per_chunk": 582,
+      "median_chunks_per_second": 1716180.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4739900,
+        "p95": 4840600,
+        "p99": 4847700
+      },
+      "median_ns_per_chunk": 578,
+      "median_chunks_per_second": 1727650.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4779100,
+        "p95": 4850100,
+        "p99": 5110300
+      },
+      "median_ns_per_chunk": 583,
+      "median_chunks_per_second": 1712160.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4731700,
+        "p95": 4969300,
+        "p99": 5328800
+      },
+      "median_ns_per_chunk": 577,
+      "median_chunks_per_second": 1730040.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4755000,
+        "p95": 4836600,
+        "p99": 5099500
+      },
+      "median_ns_per_chunk": 580,
+      "median_chunks_per_second": 1722765.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4751500,
+        "p95": 4828600,
+        "p99": 4927800
+      },
+      "median_ns_per_chunk": 580,
+      "median_chunks_per_second": 1722985.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2492400,
+        "p95": 2643800,
+        "p99": 2709300
+      },
+      "median_ns_per_chunk": 304,
+      "median_chunks_per_second": 3286660.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2564800,
+        "p95": 2816000,
+        "p99": 3038500
+      },
+      "median_ns_per_chunk": 313,
+      "median_chunks_per_second": 3188795.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2455400,
+        "p95": 2565900,
+        "p99": 2597000
+      },
+      "median_ns_per_chunk": 299,
+      "median_chunks_per_second": 3335980.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2463500,
+        "p95": 2574400,
+        "p99": 2644500
+      },
+      "median_ns_per_chunk": 300,
+      "median_chunks_per_second": 3323460.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2465600,
+        "p95": 2586600,
+        "p99": 2666500
+      },
+      "median_ns_per_chunk": 300,
+      "median_chunks_per_second": 3322315.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2506000,
+        "p95": 2757800,
+        "p99": 2854100
+      },
+      "median_ns_per_chunk": 305,
+      "median_chunks_per_second": 3268950.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2800700,
+        "p95": 2912800,
+        "p99": 3019300
+      },
+      "median_ns_per_chunk": 341,
+      "median_chunks_per_second": 2924775.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2629600,
+        "p95": 2789500,
+        "p99": 3763400
+      },
+      "median_ns_per_chunk": 320,
+      "median_chunks_per_second": 3114650.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2648400,
+        "p95": 3030500,
+        "p99": 3074800
+      },
+      "median_ns_per_chunk": 323,
+      "median_chunks_per_second": 3092140.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 2649400,
+        "p95": 2742600,
+        "p99": 2801600
+      },
+      "median_ns_per_chunk": 323,
+      "median_chunks_per_second": 3091380.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4777100,
+        "p95": 4847300,
+        "p99": 5043500
+      },
+      "median_ns_per_chunk": 583,
+      "median_chunks_per_second": 1714760.0
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 4768600,
+        "p95": 4863300,
+        "p99": 4933700
+      },
+      "median_ns_per_chunk": 582,
+      "median_chunks_per_second": 1717360.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 523700,
+        "p95": 583700,
+        "p99": 627300
+      },
+      "median_ns_per_chunk": 63,
+      "median_chunks_per_second": 15635050.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 523600,
+        "p95": 564300,
+        "p99": 601200
+      },
+      "median_ns_per_chunk": 63,
+      "median_chunks_per_second": 15644000.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 512700,
+        "p95": 552200,
+        "p99": 573600
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15976600.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 512000,
+        "p95": 571300,
+        "p99": 713400
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15984400.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 511600,
+        "p95": 551700,
+        "p99": 839400
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15993750.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 510200,
+        "p95": 548700,
+        "p99": 606800
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 16050150.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 508500,
+        "p95": 555400,
+        "p99": 719400
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 16094300.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 514000,
+        "p95": 554400,
+        "p99": 641200
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15936150.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 513100,
+        "p95": 605300,
+        "p99": 677400
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15959500.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 512500,
+        "p95": 552000,
+        "p99": 692400
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15981300.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 511300,
+        "p95": 556900,
+        "p99": 600200
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 16021900.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 513200,
+        "p95": 583400,
+        "p99": 695400
+      },
+      "median_ns_per_chunk": 62,
+      "median_chunks_per_second": 15957950.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 364600,
+        "p95": 486200,
+        "p99": 540400
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22425500.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 585100,
+        "p95": 663500,
+        "p99": 748700
+      },
+      "median_ns_per_chunk": 71,
+      "median_chunks_per_second": 13993850.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 340600,
+        "p95": 462700,
+        "p99": 514400
+      },
+      "median_ns_per_chunk": 41,
+      "median_chunks_per_second": 24041100.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 395000,
+        "p95": 581100,
+        "p99": 923500
+      },
+      "median_ns_per_chunk": 48,
+      "median_chunks_per_second": 20739200.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 348900,
+        "p95": 472100,
+        "p99": 576600
+      },
+      "median_ns_per_chunk": 42,
+      "median_chunks_per_second": 23459350.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 343400,
+        "p95": 438300,
+        "p99": 463700
+      },
+      "median_ns_per_chunk": 41,
+      "median_chunks_per_second": 23803700.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 339600,
+        "p95": 416500,
+        "p99": 487600
+      },
+      "median_ns_per_chunk": 41,
+      "median_chunks_per_second": 24094150.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 355800,
+        "p95": 444900,
+        "p99": 507900
+      },
+      "median_ns_per_chunk": 43,
+      "median_chunks_per_second": 23011250.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 359900,
+        "p95": 459300,
+        "p99": 514200
+      },
+      "median_ns_per_chunk": 43,
+      "median_chunks_per_second": 22742950.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 361900,
+        "p95": 460400,
+        "p99": 511500
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22598700.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 362600,
+        "p95": 508000,
+        "p99": 568700
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22589300.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 364900,
+        "p95": 479200,
+        "p99": 647700
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22422400.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 385100,
+        "p95": 437800,
+        "p99": 499700
+      },
+      "median_ns_per_chunk": 47,
+      "median_chunks_per_second": 21272400.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 527700,
+        "p95": 691000,
+        "p99": 1204700
+      },
+      "median_ns_per_chunk": 64,
+      "median_chunks_per_second": 15522500.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 371100,
+        "p95": 414400,
+        "p99": 472000
+      },
+      "median_ns_per_chunk": 45,
+      "median_chunks_per_second": 22045250.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 400500,
+        "p95": 450000,
+        "p99": 529500
+      },
+      "median_ns_per_chunk": 48,
+      "median_chunks_per_second": 20421350.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 366500,
+        "p95": 395800,
+        "p99": 425700
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22327650.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 365400,
+        "p95": 402500,
+        "p99": 451900
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22358250.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 344300,
+        "p95": 426700,
+        "p99": 709900
+      },
+      "median_ns_per_chunk": 42,
+      "median_chunks_per_second": 23789750.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 333000,
+        "p95": 373900,
+        "p99": 454700
+      },
+      "median_ns_per_chunk": 40,
+      "median_chunks_per_second": 24585850.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 365800,
+        "p95": 444700,
+        "p99": 591400
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22376450.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 367800,
+        "p95": 433300,
+        "p99": 537500
+      },
+      "median_ns_per_chunk": 44,
+      "median_chunks_per_second": 22257850.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 481200,
+        "p95": 598600,
+        "p99": 968400
+      },
+      "median_ns_per_chunk": 58,
+      "median_chunks_per_second": 17017050.0
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 480100,
+        "p95": 564600,
+        "p99": 615000
+      },
+      "median_ns_per_chunk": 58,
+      "median_chunks_per_second": 17047150.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 105800,
+        "p95": 160000,
+        "p99": 173000
+      },
+      "median_ns_per_chunk": 12,
+      "median_chunks_per_second": 77356050.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 103300,
+        "p95": 178300,
+        "p99": 201700
+      },
+      "median_ns_per_chunk": 12,
+      "median_chunks_per_second": 79074000.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 109300,
+        "p95": 181600,
+        "p99": 228400
+      },
+      "median_ns_per_chunk": 13,
+      "median_chunks_per_second": 74643650.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 108100,
+        "p95": 185800,
+        "p99": 227800
+      },
+      "median_ns_per_chunk": 13,
+      "median_chunks_per_second": 75572550.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 109900,
+        "p95": 163800,
+        "p99": 186400
+      },
+      "median_ns_per_chunk": 13,
+      "median_chunks_per_second": 73454000.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 103800,
+        "p95": 172000,
+        "p99": 217000
+      },
+      "median_ns_per_chunk": 12,
+      "median_chunks_per_second": 78619200.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 103900,
+        "p95": 219100,
+        "p99": 690900
+      },
+      "median_ns_per_chunk": 12,
+      "median_chunks_per_second": 77738700.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 100200,
+        "p95": 148400,
+        "p99": 235000
+      },
+      "median_ns_per_chunk": 12,
+      "median_chunks_per_second": 81432700.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 95100,
+        "p95": 131100,
+        "p99": 163400
+      },
+      "median_ns_per_chunk": 11,
+      "median_chunks_per_second": 85870850.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 95000,
+        "p95": 130100,
+        "p99": 164600
+      },
+      "median_ns_per_chunk": 11,
+      "median_chunks_per_second": 86095850.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 93900,
+        "p95": 131500,
+        "p99": 205300
+      },
+      "median_ns_per_chunk": 11,
+      "median_chunks_per_second": 87195300.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 91100,
+        "p95": 125800,
+        "p99": 158800
+      },
+      "median_ns_per_chunk": 11,
+      "median_chunks_per_second": 89873900.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 171100,
+        "p95": 288400,
+        "p99": 316700
+      },
+      "median_ns_per_chunk": 20,
+      "median_chunks_per_second": 47767000.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 345600,
+        "p95": 475300,
+        "p99": 781500
+      },
+      "median_ns_per_chunk": 42,
+      "median_chunks_per_second": 23703700.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 179200,
+        "p95": 289400,
+        "p99": 378700
+      },
+      "median_ns_per_chunk": 21,
+      "median_chunks_per_second": 45650700.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 203000,
+        "p95": 269400,
+        "p99": 326600
+      },
+      "median_ns_per_chunk": 24,
+      "median_chunks_per_second": 40344750.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 178000,
+        "p95": 230000,
+        "p99": 275500
+      },
+      "median_ns_per_chunk": 21,
+      "median_chunks_per_second": 46009550.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 179200,
+        "p95": 294600,
+        "p99": 478600
+      },
+      "median_ns_per_chunk": 21,
+      "median_chunks_per_second": 45714300.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 166500,
+        "p95": 223500,
+        "p99": 284000
+      },
+      "median_ns_per_chunk": 20,
+      "median_chunks_per_second": 49171700.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 159200,
+        "p95": 258400,
+        "p99": 331900
+      },
+      "median_ns_per_chunk": 19,
+      "median_chunks_per_second": 51376750.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 167400,
+        "p95": 213200,
+        "p99": 277300
+      },
+      "median_ns_per_chunk": 20,
+      "median_chunks_per_second": 48907500.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 164700,
+        "p95": 222200,
+        "p99": 346900
+      },
+      "median_ns_per_chunk": 20,
+      "median_chunks_per_second": 49738900.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 169300,
+        "p95": 254800,
+        "p99": 289100
+      },
+      "median_ns_per_chunk": 20,
+      "median_chunks_per_second": 48387500.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 165500,
+        "p95": 340300,
+        "p99": 541800
+      },
+      "median_ns_per_chunk": 20,
+      "median_chunks_per_second": 49423950.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 297100,
+        "p95": 354800,
+        "p99": 396500
+      },
+      "median_ns_per_chunk": 36,
+      "median_chunks_per_second": 27573200.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 440000,
+        "p95": 487500,
+        "p99": 525200
+      },
+      "median_ns_per_chunk": 53,
+      "median_chunks_per_second": 18588650.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 292800,
+        "p95": 349700,
+        "p99": 400800
+      },
+      "median_ns_per_chunk": 35,
+      "median_chunks_per_second": 27954250.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 315200,
+        "p95": 382800,
+        "p99": 651000
+      },
+      "median_ns_per_chunk": 38,
+      "median_chunks_per_second": 25989800.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 281900,
+        "p95": 360300,
+        "p99": 390200
+      },
+      "median_ns_per_chunk": 34,
+      "median_chunks_per_second": 28993300.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 282000,
+        "p95": 333000,
+        "p99": 378800
+      },
+      "median_ns_per_chunk": 34,
+      "median_chunks_per_second": 29049600.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 276000,
+        "p95": 365400,
+        "p99": 731400
+      },
+      "median_ns_per_chunk": 33,
+      "median_chunks_per_second": 29590350.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 275100,
+        "p95": 309800,
+        "p99": 375700
+      },
+      "median_ns_per_chunk": 33,
+      "median_chunks_per_second": 29767450.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 268000,
+        "p95": 377400,
+        "p99": 655200
+      },
+      "median_ns_per_chunk": 32,
+      "median_chunks_per_second": 30533050.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 270000,
+        "p95": 334100,
+        "p99": 373500
+      },
+      "median_ns_per_chunk": 32,
+      "median_chunks_per_second": 30284750.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 221600,
+        "p95": 279300,
+        "p99": 362500
+      },
+      "median_ns_per_chunk": 27,
+      "median_chunks_per_second": 36959150.0
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForReused",
+      "samples": 80,
+      "elapsed_ns": {
+        "p50": 219300,
+        "p95": 271800,
+        "p99": 333600
+      },
+      "median_ns_per_chunk": 26,
+      "median_chunks_per_second": 37321200.0
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9965,
+        "p95": 1.0236,
+        "p99": 1.0743
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9968,
+        "p95": 1.0331,
+        "p99": 1.0403
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9972,
+        "p95": 1.0321,
+        "p99": 1.0534
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9959,
+        "p95": 1.043,
+        "p99": 1.0648
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9945,
+        "p95": 1.0377,
+        "p99": 1.0667
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9959,
+        "p95": 1.0419,
+        "p99": 1.064
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.8558,
+        "p95": 0.9681,
+        "p99": 0.9987
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9665,
+        "p95": 1.1367,
+        "p99": 1.2388
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0115,
+        "p95": 1.1397,
+        "p99": 1.2484
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9678,
+        "p95": 1.0986,
+        "p99": 1.1775
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0056,
+        "p95": 1.1364,
+        "p99": 1.3266
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9796,
+        "p95": 1.1464,
+        "p99": 1.311
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.873,
+        "p95": 0.961,
+        "p99": 1.0701
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9857,
+        "p95": 1.0621,
+        "p99": 1.1658
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0224,
+        "p95": 1.186,
+        "p99": 2.0073
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0465,
+        "p95": 1.3161,
+        "p99": 1.7897
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9998,
+        "p95": 1.1281,
+        "p99": 1.2715
+      }
+    },
+    {
+      "workload": "high_variation",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9944,
+        "p95": 1.0728,
+        "p99": 1.1202
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0007,
+        "p95": 1.0299,
+        "p99": 1.038
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0011,
+        "p95": 1.038,
+        "p99": 1.0559
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9993,
+        "p95": 1.0419,
+        "p99": 1.0858
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9991,
+        "p95": 1.0302,
+        "p99": 1.0896
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0001,
+        "p95": 1.0422,
+        "p99": 1.1006
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0006,
+        "p95": 1.0383,
+        "p99": 1.0566
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9603,
+        "p95": 0.981,
+        "p99": 0.9975
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9937,
+        "p95": 1.0202,
+        "p99": 1.042
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9923,
+        "p95": 1.0286,
+        "p99": 1.042
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0067,
+        "p95": 1.0357,
+        "p99": 1.0943
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0067,
+        "p95": 1.0312,
+        "p99": 1.0479
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0009,
+        "p95": 1.0351,
+        "p99": 1.0958
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9661,
+        "p95": 1.0184,
+        "p99": 1.0666
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.998,
+        "p95": 1.0459,
+        "p99": 1.0598
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9836,
+        "p95": 1.0394,
+        "p99": 1.0693
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0597,
+        "p95": 1.1414,
+        "p99": 1.1581
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9999,
+        "p95": 1.1248,
+        "p99": 1.1673
+      }
+    },
+    {
+      "workload": "long_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0005,
+        "p95": 1.024,
+        "p99": 1.0554
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9977,
+        "p95": 1.1103,
+        "p99": 1.2544
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9988,
+        "p95": 1.112,
+        "p99": 1.1466
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0029,
+        "p95": 1.1557,
+        "p99": 1.7837
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9921,
+        "p95": 1.0963,
+        "p99": 1.1342
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0025,
+        "p95": 1.172,
+        "p99": 1.3052
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9911,
+        "p95": 1.0811,
+        "p99": 1.1703
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.6225,
+        "p95": 0.8441,
+        "p99": 0.8814
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.8684,
+        "p95": 1.0762,
+        "p99": 1.24
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0305,
+        "p95": 1.4023,
+        "p99": 1.6718
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9448,
+        "p95": 1.0994,
+        "p99": 1.3586
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9947,
+        "p95": 1.2918,
+        "p99": 1.415
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9951,
+        "p95": 1.3329,
+        "p99": 1.5908
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.7337,
+        "p95": 0.8204,
+        "p99": 0.8844
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9244,
+        "p95": 1.0315,
+        "p99": 1.1484
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9971,
+        "p95": 1.116,
+        "p99": 1.1691
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0394,
+        "p95": 1.2756,
+        "p99": 2.2095
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0003,
+        "p95": 1.166,
+        "p99": 1.6955
+      }
+    },
+    {
+      "workload": "medium_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.013,
+        "p95": 1.3001,
+        "p99": 2.2666
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0072,
+        "p95": 1.271,
+        "p99": 1.4048
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9931,
+        "p95": 1.287,
+        "p99": 1.3675
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0164,
+        "p95": 1.3786,
+        "p99": 1.6116
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0218,
+        "p95": 1.7624,
+        "p99": 5.4964
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0068,
+        "p95": 1.3448,
+        "p99": 1.7401
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 1,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0235,
+        "p95": 1.4094,
+        "p99": 2.2811
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.4877,
+        "p95": 0.7824,
+        "p99": 0.9095
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.8874,
+        "p95": 1.338,
+        "p99": 2.0037
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0012,
+        "p95": 1.2465,
+        "p99": 1.6102
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0482,
+        "p95": 1.3789,
+        "p99": 1.6886
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0129,
+        "p95": 1.2216,
+        "p99": 1.6122
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 2,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0254,
+        "p95": 1.4206,
+        "p99": 1.8123
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 1,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.677,
+        "p95": 0.8265,
+        "p99": 0.9362
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 4,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9312,
+        "p95": 1.0949,
+        "p99": 1.3184
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 16,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9975,
+        "p95": 1.237,
+        "p99": 1.3603
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 64,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 0.9939,
+        "p95": 1.2935,
+        "p99": 2.3609
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 256,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0085,
+        "p95": 1.5242,
+        "p99": 2.4856
+      }
+    },
+    {
+      "workload": "short_uniform",
+      "workers": 4,
+      "batch_size": 512,
+      "arm": "parallelForAdaptiveReused",
+      "reference": "parallelForReused",
+      "paired_samples": 80,
+      "elapsed_ratio": {
+        "p50": 1.0251,
+        "p95": 1.2329,
+        "p99": 1.3317
+      }
+    }
+  ]
+}

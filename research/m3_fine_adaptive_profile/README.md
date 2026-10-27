@@ -35,3 +35,13 @@ The earlier four-pair exploratory screen is retained in [`divisor4-vs-divisor8-s
 ## Decision and next evidence
 
 No library source or public API changed. Keep divisor 8 and `v0.3.0` as the baseline; do not cut a performance-driven release from this experiment. Next, investigate a more targeted claim-path optimization, then require fresh correctness and end-to-end qualification on XPS plus a native ARM64 profile/benchmark before selecting a candidate. Issue #49 remains open, and v0.4.0 remains TBD until its gates pass.
+
+## Native ARM64 comparison
+
+A GitHub-hosted `ubuntu-24.04-arm` runner completed four checksum-validated sessions on an ARM Neoverse-N2 (4 cores, no SMT), using LDC 1.41.0. The exact v0.3.0 library source was paired with the same benchmark harness; temporary divisor-4 and divisor-16 trees changed only the guided divisor constant. Each session covered six workload shapes, 1/4 workers, grain 1/64, five warmups and 20 measured samples. The benchmark's fixed arm is the within-process control. All 11,520 measured records completed and fixed/adaptive checksums matched.
+
+Raw captures and runner metadata are in [`results/arm64/`](results/arm64/); [`analyze_arm64_divisor_qualification.py`](analyze_arm64_divisor_qualification.py) reproduces the per-session and pooled p50/p95/p99 summary. The ratio is `(candidate adaptive / candidate fixed) / (divisor-8 adaptive / divisor-8 fixed)`; values below one favor the candidate.
+
+Divisor 4's short-uniform, four-worker, grain-1 median ratio was 0.917 pooled, with session medians 0.953, 0.881, 0.960 and 0.859. That is a consistent short-task signal on this runner. Across the other settings, results were mostly near parity or mixed; heavy-suffix, four-worker, grain-1 regressed 8.2% at the pooled median, while its upper percentiles were noisier. Divisor 16 regressed short-uniform four-worker grain-1 by 11.1% and medium-uniform by 16.7% at pooled medians, so it is rejected. Divisor 4 is not selected as the default: its benefit is workload-specific, the XPS data were less consistent, and tail results do not show a broad win.
+
+This is a native ARM64 end-to-end timing capture, not a hardware-counter call-graph profile. The hosted runner exposes its CPU model and architecture but does not provide controlled thermals or an identical environment across runs. Issue #49's requested ARM64 breakdown of claim/dispatch/callback/join profile costs is still outstanding; v0.4.0 remains TBD.

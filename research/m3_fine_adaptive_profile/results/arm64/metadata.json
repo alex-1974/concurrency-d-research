@@ -1,0 +1,125 @@
+{
+  "status": "COMPLETE",
+  "baseline_tag": "v0.3.0",
+  "baseline_commit": "b8bec029e58a20d7462ef4218d656add67084965",
+  "variants": {
+    "8": "29d6921a64ba3546bb004d711b311a7c11a011b36c662c29d595011221643609",
+    "4": "a5594db01c6f0d2e69df9239bc3ed910bcb07c8b4f41f84ce9ac73c7c1a7c583",
+    "16": "3071f5e256a7d5d3eddaae3dc02956bee4e05f3632828a6eaef2f2b91c5dbd10"
+  },
+  "protocol": "4 sessions; 20 measured and 5 warmup samples per setting; 6 workloads x workers=1,4 x grains=1,64; fixed/adaptive pairs; alternating variant order",
+  "machine": {
+    "system": "Linux",
+    "node": "runnervm4yw5a",
+    "release": "6.17.0-1022-azure",
+    "version": "#22-Ubuntu SMP Mon Jul 27 17:12:01 UTC 2026",
+    "machine": "aarch64",
+    "processor": "aarch64"
+  },
+  "cpuinfo": "processor\t: 0\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd49\nCPU revision\t: 0\n\nprocessor\t: 1\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd49\nCPU revision\t: 0\n\nprocessor\t: 2\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd49\nCPU revision\t: 0\n\nprocessor\t: 3\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd49\nCPU revision\t: 0\n\n",
+  "compiler": "LDC - the LLVM D compiler (1.41.0):\n  based on DMD v2.111.0 and LLVM 20.1.5\n  built with LDC - the LLVM D compiler (1.41.0)\n  Default target: aarch64-unknown-linux-gnu\n  Host CPU: neoverse-n2\n  http://dlang.org - http://wiki.dlang.org/LDC\n\n\n  Registered Targets:\n    aarch64     - AArch64 (little endian)\n    aarch64_32  - AArch64 (little endian ILP32)\n    aarch64_be  - AArch64 (big endian)\n    amdgcn      - AMD GCN GPUs\n    arm         - ARM\n    arm64       - ARM64 (little endian)\n    arm64_32    - ARM64 (little endian ILP32)\n    armeb       - ARM (big endian)\n    avr         - Atmel AVR Microcontroller\n    bpf         - BPF (host endian)\n    bpfeb       - BPF (big endian)\n    bpfel       - BPF (little endian)\n    hexagon     - Hexagon\n    lanai       - Lanai\n    loongarch32 - 32-bit LoongArch\n    loongarch64 - 64-bit LoongArch\n    mips        - MIPS (32-bit big endian)\n    mips64      - MIPS (64-bit big endian)\n    mips64el    - MIPS (64-bit little endian)\n    mipsel      - MIPS (32-bit little endian)\n    msp430      - MSP430 [experimental]\n    nvptx       - NVIDIA PTX 32-bit\n    nvptx64     - NVIDIA PTX 64-bit\n    ppc32       - PowerPC 32\n    ppc32le     - PowerPC 32 LE\n    ppc64       - PowerPC 64\n    ppc64le     - PowerPC 64 LE\n    r600        - AMD GPUs HD2XXX-HD6XXX\n    riscv32     - 32-bit RISC-V\n    riscv64     - 64-bit RISC-V\n    sparc       - Sparc\n    sparcel     - Sparc LE\n    sparcv9     - Sparc V9\n    spirv       - SPIR-V Logical\n    spirv32     - SPIR-V 32-bit\n    spirv64     - SPIR-V 64-bit\n    systemz     - SystemZ\n    thumb       - Thumb\n    thumbeb     - Thumb (big endian)\n    ve          - VE\n    wasm32      - WebAssembly 32-bit\n    wasm64      - WebAssembly 64-bit\n    x86         - 32-bit X86: Pentium-Pro and above\n    x86-64      - 64-bit X86: EM64T and AMD64\n    xcore       - XCore\n    xtensa      - Xtensa 32\n",
+  "started_utc": "2026-10-27T14:30:55Z",
+  "sessions": [
+    {
+      "session": 1,
+      "order": [
+        8,
+        4,
+        16
+      ],
+      "variants": [
+        {
+          "divisor": 8,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 4,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 16,
+          "rows": 1200,
+          "checksum_pairs": 600
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "order": [
+        16,
+        4,
+        8
+      ],
+      "variants": [
+        {
+          "divisor": 16,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 4,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 8,
+          "rows": 1200,
+          "checksum_pairs": 600
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "order": [
+        8,
+        4,
+        16
+      ],
+      "variants": [
+        {
+          "divisor": 8,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 4,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 16,
+          "rows": 1200,
+          "checksum_pairs": 600
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "order": [
+        16,
+        4,
+        8
+      ],
+      "variants": [
+        {
+          "divisor": 16,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 4,
+          "rows": 1200,
+          "checksum_pairs": 600
+        },
+        {
+          "divisor": 8,
+          "rows": 1200,
+          "checksum_pairs": 600
+        }
+      ]
+    }
+  ],
+  "ended_utc": "2026-10-27T14:31:38Z"
+}

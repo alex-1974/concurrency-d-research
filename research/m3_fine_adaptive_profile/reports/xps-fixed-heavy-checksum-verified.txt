@@ -1,0 +1,67 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 12K of event 'cycles:u'
+# Event count (approx.): 18077908094
+#
+# Overhead  Command          Shared Object             Symbol
+# ........  ...............  ........................  .............................................................................................................................................................................................................................................
+#
+    77.48%  concurrency-fin  concurrency-fine-profile  [.] _D3app3runFbZ16__lambda_L26_C52MFNbNfmZv
+            |
+             --77.06%--_D3app3jobFNbNfmZm (inlined)
+                       _D3app3runFbZ16__lambda_L26_C52MFNbNfmZv
+                       _D11concurrency8executor__T11RangeWorkerTDFNbNfmZvZQy8runRangeMFNbNfmmZv (inlined)
+                       _D11concurrency8executor__T11RangeWorkerTDFNbNfmZvZQy6opCallMFNbNfZv
+                       |
+                       |--56.85%--_D11concurrency8executor8Executor9withScopeMFmMDFKSQBx9taskscope9TaskScopeZvZv
+                       |          _D11concurrency8executor8Executor__T15parallelForImplTDFNbNfmZvZQBcMFmmKQsbZv (inlined)
+                       |          _D11concurrency8executor8Executor__T11parallelForTDFNbNfmZvZQyMFmmQqZv (inlined)
+                       |          _D3app3runFbZm
+                       |          _Dmain
+                       |          _D2rt6dmain212_d_run_main2UAAamPUQgZiZ6runAllMFZv
+                       |          _d_run_main2
+                       |          _d_run_main
+                       |          __libc_start_call_main
+                       |          __libc_start_main@@GLIBC_2.34
+                       |          _start
+                       |
+                        --20.22%--_D11concurrency8internal10owned_task__T9OwnedNodeTSQBx8executor__T11RangeWorkerTDFNbNfmZvZQyTvZQCe7executeFNbNePOSQEiQDy11task_record10TaskHeaderZv
+                                  _D11concurrency8internal15submission_pool20SubmissionWorkerPool10executeOneMFSQCyQCo11task_record7TaskRefZv (inlined)
+                                  _D11concurrency8internal15submission_pool20SubmissionWorkerPool10workerLoopMFmZv
+                                  _D11concurrency8internal15submission_pool20SubmissionWorkerPool10makeWorkerMFmZ17__lambda_L405_C27MFNbZv
+                                  thread_entryPoint
+                                  start_thread
+                                  __GI___clone3
+
+    17.69%  concurrency-fin  concurrency-fine-profile  [.] _D11concurrency8executor__T11RangeWorkerTDFNbNfmZvZQy6opCallMFNbNfZv
+            |
+             --17.40%--_D11concurrency8executor__T11RangeWorkerTDFNbNfmZvZQy6opCallMFNbNfZv
+                       |
+                       |--14.57%--_D11concurrency8executor8Executor9withScopeMFmMDFKSQBx9taskscope9TaskScopeZvZv
+                       |          _D11concurrency8executor8Executor__T15parallelForImplTDFNbNfmZvZQBcMFmmKQsbZv (inlined)
+                       |          _D11concurrency8executor8Executor__T11parallelForTDFNbNfmZvZQyMFmmQqZv (inlined)
+                       |          _D3app3runFbZm
+                       |          _Dmain
+                       |          _D2rt6dmain212_d_run_main2UAAamPUQgZiZ6runAllMFZv
+                       |          _d_run_main2
+                       |          _d_run_main
+                       |          __libc_start_call_main
+                       |          __libc_start_main@@GLIBC_2.34
+                       |          _start
+                       |
+                        --2.83%--_D11concurrency8internal10owned_task__T9OwnedNodeTSQBx8executor__T11RangeWorkerTDFNbNfmZvZQyTvZQCe7executeFNbNePOSQEiQDy11task_record10TaskHeaderZv
+                                  _D11concurrency8internal15submission_pool20SubmissionWorkerPool10executeOneMFSQCyQCo11task_record7TaskRefZv (inlined)
+                                  _D11concurrency8internal15submission_pool20SubmissionWorkerPool10workerLoopMFmZv
+                                  _D11concurrency8internal15submission_pool20SubmissionWorkerPool10makeWorkerMFmZ17__lambda_L405_C27MFNbZv
+                                  thread_entryPoint
+                                  start_thread
+                                  __GI___clone3
+
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

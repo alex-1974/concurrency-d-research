@@ -1,0 +1,5 @@
+    Starting Performing "release" build using ldc2 for x86_64.
+    Building containers-d 0.2.0: building configuration [library]
+    Building concurrency-d 0.3.0: building configuration [library]
+    Building concurrency-batch-tuning-benchmark ~master: building configuration [application]
+     Linking concurrency-batch-tuning-benchmark
